@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Bellini Digital Correspondence</title>
+        <meta HTTP-EQUIV="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Bellini Digital Correspondence"/>
+        <meta name="keywords" content="Vincenzo Bellini, Bellini Digital Correspondence, edizione digitale, lettere, corrispondenza"/>
+        <meta name="author" content="Santa Pellino"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link rel="stylesheet" href="style.css"/>
+        
+        <script type="text/javascript" language="javascript" src="SaxonJS2.js"></script>
+        <script>
+            window.onload = function() {
+                const sourcexml=["lettere/LL1_1.xml","lettere/LL1_2.xml"];
+                SaxonJS.transform({
+                stylesheetLocation: "trasforma.sef.json",
+                sourceLocation: sourcexml[0]
+                }, "async");
+            }
+        </script>
+        
+    </head>
+    
+    <body>
+
+        <header> 
+            <h1 id="title">
+
+            </h1>
+        </header>  
+        <nav>
+            <ul>
+                <li><a href="index.html">
+                Lettera 1
+                </a></li>
+                <li><a href="bibliografia.html">Bibliografia</a></li>
+            </ul>
+        </nav>
+        
+        
+        <div id="corpopagina" class="corpo">
+            
+            <div id="text"> 
+                
+            </div>
+        
+            <div id="infosupporto" class="pagina">
+            
+            </div>
+        
+          
+        </div>
+
+        <footer>
+           <div> Progetto a cura di Santa Pellino - Università di Pisa - Informatica umanistica -  </div> 
+
+        </footer>
+
+        
+    </body>
+    
+</html>

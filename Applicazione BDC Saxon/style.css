@@ -1,0 +1,200 @@
+
+
+header {
+  text-align:center;
+  background-color:green;
+  padding:5%;
+  color:white;
+}
+
+nav{
+float:left;
+width:27%;
+margin-top:2%;
+
+}
+
+.corpo{
+float:right;
+margin-left: 30%;
+margin-right: 6%;
+margin-top:-25%;
+
+}
+
+.lista{
+
+margin-left: 30%;
+margin-right: 3%;
+margin-top:3%;
+border: solid green 2px;
+}
+
+.bibl{
+
+margin-left: 30%;
+margin-right: 3%;
+margin-top:3%;
+border: solid green 2px;
+}
+
+
+li{
+list-style-type: none;
+
+}
+
+.list li{
+list-style-type: circle;
+
+}
+
+.list ul{
+      padding-left:25%;
+      padding-top:3%;
+}
+
+.biblio li{
+list-style-type: circle;
+
+}
+
+.biblio h2{
+
+  margin-top: 0%;
+  margin-bottom: 4%;
+  
+  }
+
+
+a:visited{
+text-decoration: none;
+color: white;
+}
+
+a:link{
+text-decoration: none;
+color: white;
+}
+
+a:hover{
+text-decoration: none;
+color: black;
+}
+
+
+nav li {
+color:white;
+background-color:green;
+padding:5%;
+text-align:center;
+margin:1%;
+}
+
+div#listalettere{
+margin:5%;
+background-color:white;
+padding-left:32%;
+}
+
+div#listalettere li{
+padding-top:2%;
+}
+
+div#bibliografia{
+margin:5%;
+background-color:white;
+padding-left:23%;
+}
+
+div#bibliografia h2{
+
+text-align:center;
+padding-bottom:4%;
+}
+
+h1{
+text-align:center;
+
+}
+
+h2{
+text-align:center;
+color: white;
+background-color:green;
+padding: 4%;
+margin-top:30%;
+}
+
+b{
+text-align:center;
+
+}
+
+
+
+.pagina{
+float:left;
+border: solid green 3px;
+margin-bottom: 2%;
+padding:3%;
+}
+/* per far stare tutte le pagine allineate a sinistra */
+
+
+.pagina h2{
+  
+  text-align: center;
+  margin:-2%;
+
+
+  }
+
+
+.text-left{
+
+float:left;
+width:35%;
+margin:3%;
+margin-left:5%;
+  
+}
+/* ovvero l'immagine che è a sinistra */
+
+.text-left  img{
+  width:100%;
+}
+/* per farla riempire tutto il div */
+
+.text-right{
+
+width:46%;
+margin-left: 45%;
+margin-top: 8%;
+
+}
+/* ovvero il testo della ettera che è a destra */
+
+.text-info{
+
+  width:46%;
+  margin-left: 15%;
+  margin-top: 8%;
+
+}
+
+footer{
+
+  background-color:green;
+  color: white;
+  float:left;
+  width: 100%;
+  padding:3%;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+
+
+}
+
