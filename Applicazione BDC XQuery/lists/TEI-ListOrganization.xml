@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <listOrg xml:id="listorg">
+
+
+                    <org type="thermal_baths" xml:id="Bains_Chinois">
+                        <orgName type="main" ref="https://fr.wikipedia.org/wiki/Bains_chinois">Bains Chinois</orgName>
+                        <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+                        <desc></desc>
+                    </org>
+                    
+                    <org type="theatre" xml:id="Carcano">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Teatro_Carcano">Teatro Carcano</orgName>
+                    	<placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>
+                        <desc></desc>
+                    </org>
+                  
+                    <org type="theatre" xml:id="Teatro_italiano">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Théâtre_de_la_comédie_italienne">Real teatro italiano</orgName>
+                        <orgName type="alt">Théâtre de la comédie italienne</orgName>
+                        <orgName type="alt">Théâtre Italien</orgName>
+                   	 	<placeName ref="TEI-ListPlace.xml#Paris">Paris</placeName>
+                        <desc></desc>
+                    </org> 
+                    
+                    <org type="theatre" xml:id="Fenice">
+                        <orgName type="main" ref="http://www.treccani.it/enciclopedia/teatro-la-fenice/">Teatro La Fenice</orgName>
+                   		<placeName ref="TEI-ListPlace.xml#VE">Venezia</placeName>
+                        <desc></desc>
+                    </org>
+
+                    <org type="theatre" xml:id="King" sameAs="http://viaf.org/viaf/133982696">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Her_Majesty%27s_Theatre">King’s Theatre</orgName>
+                        <placeName ref="TEI-ListPlace.xml#London">Londra</placeName>
+                        <desc></desc>
+                    </org>
+
+                    <org type="theatre" xml:id="Opera_Paris">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Opéra_national_de_Paris">Opéra de Paris</orgName>
+                        <placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>
+                        <desc></desc>
+                    </org>
+
+                    <org type="publisher" xml:id="CasaRicordi">
+                        <orgName type="main" ref="http://viaf.org/viaf/141646359 https://it.wikipedia.org/wiki/Casa_Ricordi">Casa Ricordi</orgName>
+                        <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>
+                        <desc resp="#PPS" >
+                            Fondata nel <date when="1808">1808</date> da 
+                            <persName ref="TEI-ListPerson.xml#GRi">Giovanni Ricordi</persName>,la casa editrice inizia una stretta collaborazione con il 
+                            <orgName type="main_theatre" ref="TEI-ListOrganization.xml#Scala">Teatro alla Scala</orgName> già dal <date when="1814">1814</date>. Nel <date when="1825">1825</date> ne acquistò l’archivio. Ben presto Casa Ricordi si assicurò la produzione dei massimi operisti del tempo e si impose come il principale editore di musica in 
+                            <placeName>Italia</placeName>.
+                        </desc>
+                        <desc  source="TEI-ListBibl.xml#Seminara2017" resp="#GS" ana="390">
+                            <bibl>
+                                <citedRange unit="page" from="235" to="235">235</citedRange>
+                            </bibl>    
+                            Nel 1824 
+                            <persName ref="TEI-ListPerson.xml#GRi" role="publisher">Giovanni Ricordi</persName> – in società con 
+                            <persName>Antonio Grua</persName> – aveva aperto una sede a 
+                            <placeName>Firenze</placeName> sotto il nome &#171;Ricordi Grua e C.<hi rend="sup">o</hi>&#187;; nel 1826 aveva affidato la gestione della sede al genero 
+                            <persName>Carlo Pozzi</persName>, che ne aveva sposato la figlia 
+                            <persName>Giulietta</persName>, e le edizioni musicali erano state pubblicate con la denominazione &#171;Ricordi Pozzi e C.<hi rend="sup">o</hi>&#187;. Quando nel 1828 Pozzi lasciò Firenze per curare la distribuzione delle edizioni Ricordi in 
+                            <placeName>Svizzera</placeName>, la ditta fu gestita da 
+                            <persName>Stefano Jouhaud</persName> e venne designata come &#171;Ricordi e Comp.<hi rend="sup">o</hi>&#187;.</desc>
+                    </org>
+ 
+
+                   <org type="opera-org" xml:id="Soc_teatri_NA" >
+                        <orgName type="main">Società dei teatri di Napoli</orgName>
+                        <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName>
+                        <desc></desc> <!-- se lo eliminiamo da togliere dalla 34-I -->
+                    </org>
+
+                    <org type="theatre" xml:id="San_Carlo" sameAs="https://viaf.org/viaf/126846559/">
+                        <orgName type="main" ref="https://it.wikipedia.org/wiki/Teatro_di_San_Carlo">Teatro San Carlo</orgName>
+                        <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName>
+                        <desc></desc>
+                    </org>
+                    
+                    <org type="theatre" xml:id="Scala">
+                        <orgName type="main" ref="http://www.treccani.it/enciclopedia/teatro-alla-scala/">Teatro alla Scala</orgName>
+                		<placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>
+                        <desc></desc>
+                    </org>
+                    
+                    <org type="theatre" xml:id="Semperoper" source="https://it.wikipedia.org/wiki/Semperoper">
+                        <orgName type="main">Teatro dell'Opera di Dresda</orgName>
+                        <orgName type="alt" xml:lang="de">Semperoper</orgName>
+                        <placeName ref="TEI-ListPlace.xml#Dresden">Dresda</placeName>
+                        <desc></desc>
+                    </org>
+                    
+                </listOrg>
+                
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+    </text>
+</TEI>

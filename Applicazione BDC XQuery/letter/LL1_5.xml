@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<!--Descrizione metadati file elettronico-->
+		<fileDesc>
+			<!--Informazioni titolo-->
+			<titleStmt>
+				<title>Vincenzo Bellini a Vincenzo Ferlito, in Milano, [luglio 1830]</title>
+				<author ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<!--Informazioni edizione-->
+			<editionStmt>
+				<edition>Digital edition 
+					<date when="2020-07">July 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Digital edition project coordinated by</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name xml:id="IB">Ilenia Beccaro</name>
+					<name xml:id="FC">Felicia Colucci</name>
+					<name xml:id="BM">Beatrice Melis</name>
+				</respStmt>
+				<!--responsabile-->
+				<respStmt>
+					<resp>Encoding revision by</resp>
+					<name xml:id="CC">Carla Congiu</name>
+					<name xml:id="PPS">Pietro Sichera</name>
+				</respStmt>
+				<funder>Patto per Catania</funder>
+			</editionStmt>
+			<!--Informazioni sulla pubblicazione-->
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+				<idno type="filename">LL1_5.xml</idno>
+				<date when="2021-09">September 2021</date>
+			</publicationStmt>
+			<!--Informazioni lettera originale-->
+			<sourceDesc>
+				<bibl source="TEI-ListBibl.xml#Seminara2017" resp="#GS" ana="130">
+					<citedRange unit="page" from="221" to="221">221</citedRange>
+				</bibl>
+				<msDesc>
+					<!--descrizione lettera originale-->
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<!--codice della lettera -->
+						<idno type="inventory">LL1.5</idno>
+						<!--collocazione della lettera al museo -->
+						<altIdentifier>
+							<idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, III, a</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</persName> a <persName ref="TEI-ListPerson.xml#VF">Vincenzo Ferlito</persName>, in <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>,<date when="1830-07" cert="high" resp="#GS">Luglio 1830</date>
+							</title>
+							<textLang mainLang="it">Italiano di inizio Ottocento.</textLang>
+							<note>Lettera incompleta.</note>
+							<note>La data di redazione della lettera è stata attribuita da <persName ref="#GS">Seminara</persName> e non è presente nel documento originale.</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<!--Descrizione fisica lettera originale-->
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<!--<objectType>Lettera</objectType>-->
+									<material>Carta sottile di colore beige scuro, inchiostro nero.</material>
+									<watermark>La carta non presenta filigrana.</watermark>
+									<stamp>Non sono presenti tracce di sigilli, timbri o francobolli. Il testo è scritto in maniera lineare, ad eccezione di un punto in cui l'autore ha aggiunto un'informazione sovrascrivendola ad una riga. La lettera presenta cancellature all'inizio e alla fine della carta 1v ed alcune macchie di sbavature.</stamp>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>245</height>
+										<width>128</width>
+									</dimensions>
+								</extent>
+								<collation>
+									Il folio è piegato in tre punti in modo asimmetrico, riportando in questi punti degli strappi.
+								</collation>
+								<condition>
+									<p>
+										Lettera in cattive condizioni fisiche, divisa in tre frammenti.
+									</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<p>
+								Scrittura a mano libera abbastanza leggibile. Sul verso, nel primo frammento e nella parte inferiore del terzo frammento sono presenti segni di cancellature.
+							</p>
+						</handDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>
+								All'interno del carteggio belliniano (LL), la segnatura LL1 corrisponde alle missive scritte da Vincenzo Bellini. Con LL1.n si indica la lettera n-esima nella sua sequenza cronologica. Il numero romano I o II in coda alla segnatura (quando presenti) specifica la natura multipla del documento fisico, cioè la coesistenza di più missive nella stessa carta.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName ref="TEI-ListPerson.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>
+					<date when="1830-07" resp="#GS" cert="medium">Luglio 1830</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="TEI-ListPerson.xml#VF">Vincenzo Ferlito</persName>
+					<placeName>unknown</placeName>
+					<date>unknown</date>
+				</correspAction>
+				<correspContext>
+					<p>Nessun contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">					<!-- soggettario della Biblioteca Nazionale di Firenze -->
+					<term resp="#GS">Lettera</term>
+				</keywords>
+			</textClass>
+			<!-- Lingua usata nella lettera -->
+			<langUsage>
+				<language ident="it">Italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+
+		<surface n="1" xml:id="LL1.5_folio_1r">
+			<graphic url='LL1.5_0001.jpg' width='1610px' height='3013px' />
+			<zone ulx="86" uly="63" lrx="1561" lry="142" rendition="Line" xml:id="LL1.5_line_1r_01"/>
+			<zone ulx="86" uly="153" lrx="1561" lry="243" rendition="Line" xml:id="LL1.5_line_1r_02"/>
+			<zone ulx="86" uly="251" lrx="1561" lry="335" rendition="Line" xml:id="LL1.5_line_1r_03"/>
+			<zone ulx="86" uly="346" lrx="1561" lry="415" rendition="Line" xml:id="LL1.5_line_1r_04"/>
+			<zone ulx="86" uly="435" lrx="1561" lry="503" rendition="Line" xml:id="LL1.5_line_1r_05"/>
+			<zone ulx="70" uly="599" lrx="1561" lry="685" rendition="Line" xml:id="LL1.5_line_1r_06"/>
+			<zone ulx="86" uly="694" lrx="1561" lry="778" rendition="Line" xml:id="LL1.5_line_1r_07"/>
+			<zone ulx="86" uly="785" lrx="1561" lry="883" rendition="Line" xml:id="LL1.5_line_1r_08"/>
+			<zone ulx="86" uly="886" lrx="1561" lry="967" rendition="Line" xml:id="LL1.5_line_1r_09"/>
+			<zone ulx="86" uly="973" lrx="1561" lry="1067" rendition="Line" xml:id="LL1.5_line_1r_10"/>
+			<zone ulx="86" uly="1084" lrx="1561" lry="1180" rendition="Line" xml:id="LL1.5_line_1r_11"/>
+			<zone ulx="86" uly="1186" lrx="1561" lry="1273" rendition="Line" xml:id="LL1.5_line_1r_12"/>
+			<zone ulx="86" uly="1290" lrx="1561" lry="1405" rendition="Line" xml:id="LL1.5_line_1r_13"/>
+			<zone ulx="86" uly="1408" lrx="1561" lry="1495" rendition="Line" xml:id="LL1.5_line_1r_14"/>
+			<zone ulx="86" uly="1502" lrx="1561" lry="1588" rendition="Line" xml:id="LL1.5_line_1r_15"/>
+			<zone ulx="86" uly="1596" lrx="1561" lry="1729" rendition="Line" xml:id="LL1.5_line_1r_16"/>
+			<zone ulx="86" uly="1705" lrx="1561" lry="1783" rendition="Line" xml:id="LL1.5_line_1r_17"/>
+			<zone ulx="86" uly="1786" lrx="1561" lry="1932" rendition="Line" xml:id="LL1.5_line_1r_18"/>
+			<zone ulx="86" uly="1937" lrx="1561" lry="2034" rendition="Line" xml:id="LL1.5_line_1r_19"/>
+			<zone ulx="86" uly="2039" lrx="1561" lry="2140" rendition="Line" xml:id="LL1.5_line_1r_20"/>
+			<zone ulx="86" uly="2147" lrx="1561" lry="2228" rendition="Line" xml:id="LL1.5_line_1r_21"/>
+			<zone ulx="86" uly="2236" lrx="1561" lry="2335" rendition="Line" xml:id="LL1.5_line_1r_22"/>
+			<zone ulx="86" uly="2344" lrx="1561" lry="2448" rendition="Line" xml:id="LL1.5_line_1r_23"/>
+			<zone ulx="86" uly="2456" lrx="1561" lry="2555" rendition="Line" xml:id="LL1.5_line_1r_24"/>
+			<zone ulx="86" uly="2555" lrx="1561" lry="2640" rendition="Line" xml:id="LL1.5_line_1r_25"/>
+			<zone ulx="86" uly="2658" lrx="1561" lry="2718" rendition="Line" xml:id="LL1.5_line_1r_26"/>
+			<zone ulx="86" uly="2724" lrx="1561" lry="2860" rendition="Line" xml:id="LL1.5_line_1r_27"/>
+			<zone ulx="86" uly="2846" lrx="1561" lry="2935" rendition="Line" xml:id="LL1.5_line_1r_28"/>
+		</surface>
+
+		<surface n="2" xml:id="LL1.5_folio_1v">
+			<graphic url='LL1.5_0002.jpg' width='1639px' height='3013px' />
+			<zone ulx="218" uly="63" lrx="1583" lry="135" rendition="Line" xml:id="LL1.5_line_1v_01"/>
+			<zone ulx="218" uly="161" lrx="1585" lry="223" rendition="Line" xml:id="LL1.5_line_1v_02"/>
+			<zone ulx="218" uly="234" lrx="1587" lry="327" rendition="Line" xml:id="LL1.5_line_1v_03"/>
+			<zone ulx="218" uly="335" lrx="1587" lry="405" rendition="Line" xml:id="LL1.5_line_1v_04"/>
+			<zone ulx="218" uly="419" lrx="1583" lry="524" rendition="Line" xml:id="LL1.5_line_1v_05"/>
+			<zone ulx="126" uly="619" lrx="1554" lry="701" rendition="Line" xml:id="LL1.5_line_1v_06"/>
+			<zone ulx="126" uly="722" lrx="1583" lry="790" rendition="Line" xml:id="LL1.5_line_1v_07"/>
+			<zone ulx="126" uly="801" lrx="1559" lry="896" rendition="Line" xml:id="LL1.5_line_1v_08"/>
+			<zone ulx="126" uly="906" lrx="1544" lry="996" rendition="Line" xml:id="LL1.5_line_1v_09"/>
+			<zone ulx="126" uly="1028" lrx="1578" lry="1119" rendition="Line" xml:id="LL1.5_line_1v_10"/>
+			<zone ulx="126" uly="1132" lrx="1587" lry="1254" rendition="Line" xml:id="LL1.5_line_1v_11"/>
+			<zone ulx="200" uly="1266" lrx="1583" lry="1375" rendition="Line" xml:id="LL1.5_line_1v_12"/>
+			<zone ulx="126" uly="1386" lrx="1591" lry="1471" rendition="Line" xml:id="LL1.5_line_1v_13"/>
+			<zone ulx="126" uly="1487" lrx="1580" lry="1595" rendition="Line" xml:id="LL1.5_line_1v_14"/>
+			<zone ulx="126" uly="1597" lrx="1585" lry="1678" rendition="Line" xml:id="LL1.5_line_1v_15"/>
+			<zone ulx="126" uly="1689" lrx="1578" lry="1810" rendition="Line" xml:id="LL1.5_line_1v_16"/>
+			<zone ulx="126" uly="1800" lrx="1578" lry="1905" rendition="Line" xml:id="LL1.5_line_1v_17"/>
+			<zone ulx="126" uly="1917" lrx="1144" lry="2005" rendition="Line" xml:id="LL1.5_line_1v_18"/>
+			<zone ulx="1059" uly="1996" lrx="1580" lry="2089" rendition="Line" xml:id="LL1.5_line_1v_19"/>
+			<zone ulx="1113" uly="2106" lrx="1510" lry="2242" rendition="Line" xml:id="LL1.5_line_1v_20"/>
+			<zone ulx="290" uly="2146" lrx="1176" lry="2260" rendition="Line" xml:id="LL1.5_line_1v_21"/>
+			<zone ulx="290" uly="2262" lrx="1176" lry="2351" rendition="Line" xml:id="LL1.5_line_1v_22"/>
+			<zone ulx="290" uly="2341" lrx="1176" lry="2428" rendition="Line" xml:id="LL1.5_line_1v_23"/>
+			<zone ulx="290" uly="2418" lrx="1340" lry="2531" rendition="Line" xml:id="LL1.5_line_1v_24"/>
+			<zone ulx="290" uly="2524" lrx="1340" lry="2607" rendition="Line" xml:id="LL1.5_line_1v_25"/>
+			<zone ulx="290" uly="2590" lrx="1564" lry="2689" rendition="Line" xml:id="LL1.5_line_1v_26"/>
+			<zone ulx="290" uly="2660" lrx="1564" lry="2790" rendition="Line" xml:id="LL1.5_line_1v_27"/>
+			<zone ulx="290" uly="2737" lrx="1564" lry="2865" rendition="Line" xml:id="LL1.5_line_1v_28"/>
+			<zone ulx="290" uly="2821" lrx="1564" lry="2936" rendition="Line" xml:id="LL1.5_line_1v_29"/>
+			<zone ulx="290" uly="2896" lrx="803" lry="2973" rendition="Line" xml:id="LL1.5_line_1v_30"/>
+		</surface>
+	</facsimile>
+
+	<text type="lettera" xml:id="LL1.5" subtype="manuscript" n="LL1.5">
+		<front></front>
+		<body xml:lang="it">
+
+			<pb n="1" xml:id="LL1.5_fol_1r" facs="#LL1.5_folio_1r"/> <!-- Fronte -->
+
+			<div type="letter-body" n="t_01">
+				<ab type="parag" n="ab_02">
+					<s type="sentence" n="s_02">
+						<lb xml:id="LL1.5_lb_1r_01" n="1" facs="#LL1.5_line_1r_01"/>
+						<gap reason="lost"/><ptr target="#LL1_5_note1"/>
+						il <persName ref="TEI-ListPerson.xml#PL" resp="#EC"><roleName type="nobility">Duca</roleName> <hi rend="underline">Litta,</hi></persName> e i due negozianti <persName ref="TEI-ListPerson.xml#GM" role="imprenditore"><hi rend="underline">Marietti</hi></persName>
+
+						<lb xml:id="LL1.5_lb_1r_02" n="2" facs="#LL1.5_line_1r_02"/>
+						e <hi rend="underline"><persName ref="TEI-ListPerson.xml#PS" role="imprenditore">Soresi</persName></hi> avendosi posto in testa di prender
+
+						<lb xml:id="LL1.5_lb_1r_03" n="3" facs="#LL1.5_line_1r_03"/>
+						il <orgName type="theatre" ref="TEI-ListOrganization.xml#Scala">teatro della Scala,</orgName> ed avendo perciò <w>scritt
+
+						<lb xml:id="LL1.5_lb_1r_04" n="4" facs="#LL1.5_line_1r_04" break="no" rend="double stroke"/>
+						urato</w> la <persName ref="TEI-ListPerson.xml#GNP" role="soprano">Pasta,</persName> <persName ref="TEI-ListPerson.xml#GBR" role="tenore">Rubini</persName> ed altri celebri <w>atto
+
+						<lb xml:id="LL1.5_lb_1r_05" n="5" facs="#LL1.5_line_1r_05" break="no" rend="double stroke"/>
+						ri</w>, hanno fatto il possibile di comprare da <persName ref="TEI-ListPerson.xml#GC" role="impresario"><w>Cri
+
+						<lb xml:id="LL1.5_lb_1r_06" n="6" facs="#LL1.5_line_1r_06" break="no" rend="double stroke"/>
+						velli</w></persName><ptr target="#LL1_5_note2"/> il mio contratto che finalmente <w>han
+
+						<lb xml:id="LL1.5_lb_1r_07" n="7" facs="#LL1.5_line_1r_07" break="no" rend="double stroke"/>
+						no</w> avuto con regalare al detto <num type="cardinal" value="1500">1500<am>:</am></num> <choice><abbr>f<am>:</am><g rend="superscript">i</g></abbr><expan>f<ex resp="#GS">ranchi</ex></expan></choice> poi
+
+						<lb xml:id="LL1.5_lb_1r_08" n="8" facs="#LL1.5_line_1r_08"/>
+						essendosi da me portati, mi hanno detto,
+
+						<lb xml:id="LL1.5_lb_1r_09" n="9" facs="#LL1.5_line_1r_09"/>
+						che eglino aveano comprato la mia <w>scrittu
+
+						<lb xml:id="LL1.5_lb_1r_10" n="10" facs="#LL1.5_line_1r_10" break="no" rend="double stroke"/>
+						ra</w> solamente per sciogliermi da <persName ref="TEI-ListPerson.xml#GC" role="impresario">Crivelli,</persName> e
+
+						<lb xml:id="LL1.5_lb_1r_11" n="11" facs="#LL1.5_line_1r_11"/>
+						non per comperar me ed i miei talenti, e
+
+						<lb xml:id="LL1.5_lb_1r_12" n="12" facs="#LL1.5_line_1r_12"/>
+						quindi era loro intenzione di stracciare
+
+						<lb xml:id="LL1.5_lb_1r_13" n="13" facs="#LL1.5_line_1r_13"/>
+						tale contratto, che mi assegnava per l'<term subtype="music-term" ref="TEI-ListTerm.xml#opera"><w>ope
+
+						<lb xml:id="LL1.5_lb_1r_14" n="14" facs="#LL1.5_line_1r_14" break="no" rend="double stroke"/>
+						ra</w></term> che dovea scrivere nel <rs><orgName type="theatre" ref="TEI-ListOrganization.xml#Fenice">teatro di Venezia</orgName></rs>
+
+						<lb xml:id="LL1.5_lb_1r_15" n="15" facs="#LL1.5_line_1r_15"/>
+						<num type="cardinal" value="7000">sette mila</num> <choice><abbr>f<am>:</am><g rend="superscript">i</g></abbr><expan>f<ex resp="#GS">ranchi</ex></expan></choice> mettendo in mio arbitrio di
+
+						<lb xml:id="LL1.5_lb_1r_16" n="16" facs="#LL1.5_line_1r_16"/>
+						fare altra domanda, e che l'<term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term> io <w>fos
+
+						<lb xml:id="LL1.5_lb_1r_17" n="17" facs="#LL1.5_line_1r_17" break="no" rend="double stroke"/>
+						si</w> in obbligo di scriverla o per <placeName ref="TEI-ListPlace.xml#VE">Venezia</placeName> o
+							
+						<lb xml:id="LL1.5_lb_1r_18" n="18" facs="#LL1.5_line_1r_18"/>
+						per <placeName ref="TEI-ListPlace.xml#MI">Milano,</placeName>
+						<add place="supralinear">perché ora è in dubbio se questa società abbia il <rs><orgName type="theatre" ref="TEI-ListOrganization.xml#Scala">teatro <milestone unit="line" />di Milano</orgName></rs> o di <rs><orgName type="theatre" ref="TEI-ListOrganization.xml#Fenice">Venezia</orgName></rs></add>
+						aggiungendo che nel carnevale
+						
+						<lb xml:id="LL1.5_lb_1r_19" n="19" facs="#LL1.5_line_1r_19"/>
+						non potessi scrivere altro che quest'<term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term> <w>so
+
+						<lb xml:id="LL1.5_lb_1r_20" n="20" facs="#LL1.5_line_1r_20" break="no" rend="double stroke"/>
+						la</w>;
+					</s>
+
+					<s type="sentence" n="s_02">
+						dunque essendo tale la mia intenzione,
+
+						<lb xml:id="LL1.5_lb_1r_21" n="21" facs="#LL1.5_line_1r_21"/>
+						intenzione che io avea a loro esternato
+
+						<lb xml:id="LL1.5_lb_1r_22" n="22" facs="#LL1.5_line_1r_22"/>
+						prima che mi comprassero da <persName ref="TEI-ListPerson.xml#GC" role="impresario">Crivelli:</persName> ho
+
+						<lb xml:id="LL1.5_lb_1r_23" n="23" facs="#LL1.5_line_1r_23"/>
+						domandato la paga di <num type="cardinal" value="12000">12000<am>:</am></num><hi rend="underline"><choice><abbr type="contraction">svanzihe</abbr><expan>svanzi<ex>c</ex>he</expan></choice></hi>
+
+						<lb xml:id="LL1.5_lb_1r_24" n="24" facs="#LL1.5_line_1r_24"/>
+						pari a ducati <num type="cardinal" value="2400">duemila e quattrocento</num>, e
+
+						<lb xml:id="LL1.5_lb_1r_25" n="25" facs="#LL1.5_line_1r_25"/>
+						la mettà della proprietà dello <term subtype="music-term" ref="TEI-ListTerm.xml#spartito">spartito,</term> che <w>in
+
+						<lb xml:id="LL1.5_lb_1r_26" n="26" facs="#LL1.5_line_1r_26" break="no" rend="double stroke"/>
+						contrando</w> l'<term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term> mi frutterà <num type="cardinal" value="3000">tremila</num>
+						
+						<lb xml:id="LL1.5_lb_1r_27" n="27" facs="#LL1.5_line_1r_27"/>
+						ducati in tutto: 
+					</s>
+					<s type="sentence" n="s_03">
+						<add place="supralinear" n="add_02">essi tutto mi hanno accordato =</add>
+						in questo fatto sono <w>sta
+
+						<lb xml:id="LL1.5_lb_1r_28" n="28" facs="#LL1.5_line_1r_28" break="no" rend="double stroke"/>
+						to</w> fortunatissimo, perché quasi vengo a
+
+						<pb n="2" xml:id="LL1.5_fol_1v" facs="#LL1.5_folio_1v"/>
+
+						<!--Codifica porzione lettera con cancellature-->
+						<del rend="erasure">
+							<lb xml:id="LL1.5_lb_1v_01" n="1" facs="#LL1.5_line_1v_01"/>
+							<gap reason="deleted" extent="one-line"/>
+							<lb xml:id="LL1.5_lb_1v_02" n="2" facs="#LL1.5_line_1v_02"/>
+							<gap reason="deleted" extent="one-line"/>
+							<lb xml:id="LL1.5_lb_1v_03" n="3" facs="#LL1.5_line_1v_03"/>
+							<gap reason="deleted" extent="one-line"/>
+							<lb xml:id="LL1.5_lb_1v_04" n="4" facs="#LL1.5_line_1v_04"/>
+							<gap reason="deleted" extent="one-line"/>
+							<lb xml:id="LL1.5_lb_1v_05" n="5" facs="#LL1.5_line_1v_05"/>
+							<gap reason="deleted" extent="one-line"/>
+						</del>
+
+						<lb xml:id="LL1.5_lb_1v_06" n="6" facs="#LL1.5_line_1v_06"/>
+						guadagnare il doppio, di come l'avessi
+
+						<lb xml:id="LL1.5_lb_1v_07" n="7" facs="#LL1.5_line_1v_07"/>
+						scritto per <persName ref="TEI-ListPerson.xml#GC" role="impresario">Crivelli:</persName>
+					</s>
+
+					<s type="sentence" n="s_04">
+						la fortuna pare che
+
+						<lb xml:id="LL1.5_lb_1v_08" n="8" facs="#LL1.5_line_1v_08"/>
+						mi vuole ancora suo favorito:
+					</s>
+					<s type="sentence" n="s_05">
+						io non
+
+						<lb xml:id="LL1.5_lb_1v_09" n="9" facs="#LL1.5_line_1v_09"/>
+						abuserò perché studio sempre, ed Iddio
+
+						<lb xml:id="LL1.5_lb_1v_10" n="10" facs="#LL1.5_line_1v_10"/>
+						spero che vorrà sempre ajutarmi, <w>alme
+
+						<lb xml:id="LL1.5_lb_1v_11" n="11" facs="#LL1.5_line_1v_11" break="no" rend="double stroke"/>
+						no</w>, se non per me, per la <rs type="personGrp">mia famiglia</rs>.
+					</s>
+					<s type="sentence" n="s_06">
+						<lb xml:id="LL1.5_lb_1v_12" n="12" facs="#LL1.5_line_1v_12"/>
+						Subito che sortirà lo <term subtype="music-term" ref="TEI-ListTerm.xml#spartito">spartito</term> dei <rs type="work" ref="TEI-ListWork.xml#Capuleti"><w>Ca
+
+						<lb xml:id="LL1.5_lb_1v_13" n="13" facs="#LL1.5_line_1v_13" break="no" rend="double stroke"/>
+						puleti</w></rs> l'invierò, come ancora i <w>ritrat
+
+						<lb xml:id="LL1.5_lb_1v_14" n="14" facs="#LL1.5_line_1v_14" break="no" rend="double stroke"/>
+						ti</w>, che dovranno sortire fra un mese <w>al
+
+						<lb xml:id="LL1.5_lb_1v_15" n="15" facs="#LL1.5_line_1v_15" break="no" rend="double stroke"/>
+						meno</w>. —
+					</s>
+					<s type="sentence" n="s_07">
+						Intanto ricevete i miei <choice><abbr>abb<am>:</am><g rend="superscript">ci</g></abbr><expan>abb<ex resp="#GS">racci</ex></expan></choice> ed
+
+						<lb xml:id="LL1.5_lb_1v_16" n="16" facs="#LL1.5_line_1v_16"/>
+						i rispetti per la <persName ref="TEI-ListPerson.xml#RM" resp="#EC">zia sara:</persName>
+					</s>
+					<s type="sentence" n="s_08">
+						tante cose allo
+
+						<lb xml:id="LL1.5_lb_1v_17" n="17" facs="#LL1.5_line_1v_17"/>
+						<persName ref="TEI-ListPerson.xml#FF" resp="#EC">zio <choice><abbr>D<am>:</am></abbr><expan>D<ex>on</ex></expan></choice>Ciccio</persName> e tutti i parenti, come a
+
+						<lb xml:id="LL1.5_lb_1v_18" n="18" facs="#LL1.5_line_1v_18"/>
+						tutte le nostre conoscenze
+					</s>
+				</ab>
+
+				
+			</div> 
+
+			<div type="closer" n="c_01">
+				<salute n="ab_03">
+					<s n="s_09">
+						<lb xml:id="LL1.5_lb_1v_19" n="19" facs="#LL1.5_line_1v_19"/>
+						<hi rend="align(right)">Vostro <choice><abbr>affssmo</abbr><expan resp="#GS">aff<ex>ezionati</ex>ss<ex>i</ex>mo</expan></choice></hi>
+
+						<lb xml:id="LL1.5_lb_1v_20" n="20" facs="#LL1.5_line_1v_20"/>
+						<persName ref="TEI-ListPerson.xml#VB" role="composer"><hi rend="align(right)">Vincenzo</hi></persName>
+					</s>
+				</salute>
+			</div>
+
+			<div type="deleted" n="d_02">
+				<ab n="ab_04">
+					<del rend="erasure">
+						<lb xml:id="LL1.5_lb_1v_21" n="21" facs="#LL1.5_line_1v_21"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_22" n="22" facs="#LL1.5_line_1v_22"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_23" n="23" facs="#LL1.5_line_1v_23"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_24" n="24" facs="#LL1.5_line_1v_24"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_25" n="25" facs="#LL1.5_line_1v_25"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_26" n="26" facs="#LL1.5_line_1v_26"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_27" n="27" facs="#LL1.5_line_1v_27"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_28" n="28" facs="#LL1.5_line_1v_28"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_29" n="29" facs="#LL1.5_line_1v_29"/>
+							<gap reason="deleted" extent="one-line"/>
+						<lb xml:id="LL1.5_lb_1v_30" n="30" facs="#LL1.5_line_1v_30"/>
+							<gap reason="deleted" extent="one-line"/>
+					</del>
+				</ab>
+			</div>
+
+		</body>
+
+		<back>
+			<div type="notes">
+				<div type="ann_notes">
+					<note xml:id="LL1_5_note1" resp="#GS">
+						<p>
+							La lettera è incompleta.
+						</p>
+					</note>		
+					<note xml:id="LL1_5_note2" source="TEI-ListBibl.xml#Seminara2017" resp="#GS" ana="356">
+						<bibl><citedRange unit="page" from="221" to="221">221</citedRange></bibl>
+						<p>Nell'autografo a fine riga è scritto Cri= e nel rigo successivo è ripreso integralmente il nome Crivelli.</p>
+					</note>
+				</div>
+			</div>
+
+			<div type="bibliography">
+				<listBibl xml:id="LL1_5_bibliography">
+					<head>Bibliography of the letter LL1.5</head>
+					<!--Guido Libertini-->
+					<bibl xml:id="LL1_5_Libertini">
+						<ref target="TEI-ListBibl.xml#Libertini1935">
+							<bibl>
+								<author>Libertini</author>
+								<date>1935</date>
+								<citedRange unit="page" from="6" to="6">6</citedRange>
+							</bibl>
+						</ref>
+					</bibl>
+					<!--Luisa Cambi-->
+					<bibl xml:id="LL1_5_Cambi">
+						<ref target="TEI-ListBibl.xml#Cambi1943">
+							<bibl>
+								<author>Cambi</author>
+								<date>1943</date>
+								<citedRange unit="page" from="251" to="252">251-252</citedRange>
+							</bibl>
+						</ref>
+					</bibl>
+					<!--Carmelo Neri-->
+					<bibl xml:id="LL1_5_Neri">
+						<ref target="TEI-ListBibl.xml#Neri2005">
+							<bibl>
+								<author>Neri</author>
+								<date>2005</date>
+								<citedRange unit="page" from="169" to="170">169-170</citedRange>
+							</bibl>
+						</ref>
+					</bibl>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

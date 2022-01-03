@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<script>
+    <json>
+        window.onload = function() {
+            SaxonJS.transform({
+            stylesheetLocation: "trasforma2.sef.json",
+            sourceLocation: "lista2.xml"
+            }, "asincrono");
+        }
+    </json>
+</script>
