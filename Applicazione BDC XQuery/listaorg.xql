@@ -36,7 +36,7 @@ declare variable $page-title := "Bellini Digital Correspondence";
                 <li><a href="bibliografia.html">Bibliografia</a></li>
                 <li><a href="listapersone.html">Persone citate</a></li>
                 <li><a href="listaposti.html">Posti citati</a></li>
-                <li><a href="listaorg.html">Organizazioni citate</a></li>
+                <li><a href="listaorg.html">Organizzazioni citate</a></li>
             </ul>
         </nav>
 
