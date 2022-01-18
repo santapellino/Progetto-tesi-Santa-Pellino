@@ -679,7 +679,6 @@
         </xsl:for-each>
     </xsl:template> 
 
-
     <xsl:template match="tei:text//tei:term">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
@@ -879,8 +878,7 @@
     <xsl:template match="tei:choice" mode="sciogliabbr"> 
         <xsl:variable name="spazi" select="concat(' ',tei:expan, ' ' )"/>
         <xsl:value-of select="$spazi"/> 
-    </xsl:template>
-    
+    </xsl:template>    
 
     <xsl:template match="tei:persName" mode="hotspot"> 
         <xsl:copy>
@@ -917,6 +915,5 @@
             <xsl:apply-templates/>
         </xsl:copy>
     </xsl:template>
-
 
 </xsl:stylesheet>
