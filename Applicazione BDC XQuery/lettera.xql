@@ -16,15 +16,11 @@ declare variable $page-title := "Bellini Digital Correspondence";
     <meta name="keywords" content="Vincenzo Bellini, Bellini Digital Correspondence, edizione digitale, lettere, corrispondenza"/>
     <meta name="author" content="Santa Pellino"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
     <link rel="stylesheet" href="style.css"/>
-    
     <body>
-
         <header>
              <h1>  {$page-title}</h1>   
         </header>
-        
         <nav>
             <ul>
                 <li><a href="lettera.html">
@@ -33,16 +29,13 @@ declare variable $page-title := "Bellini Digital Correspondence";
                     return $title/text()
                 }
                 </a></li>
-                
                 <li><a href="bibliografia.html">Bibliografia</a></li>
                 <li><a href="listapersone.html">Persone citate</a></li>
                 <li><a href="listaposti.html">Posti citati</a></li>
-                <li><a href="listaorg.html">Organizzazioni citate</a></li>
+                <li><a href="listaorg.html">Organizazioni citate</a></li>
             </ul>
         </nav>
-
         <div id="corpopagina" class="corpo">
-
             {
             for $title in doc("letter/LL1_1.xml")//tei:titleStmt/tei:title
             return 
@@ -50,149 +43,52 @@ declare variable $page-title := "Bellini Digital Correspondence";
                     {$title/text()}
                 </h2>
             }
-
-             <div id="pagina1" class="pagina">
-
-
-                <div id="image1" class="text-left">
-                    
-                        <img src="images/LL1-1_0001.jpg" width="300px" />
-        
-                </div>
-                <br/>
-
-
-
-                <div id="text1" class="text-right" >
-
-                <b> Pagina 1 </b>
-                <br/>
-
-                <p>
-                {
-                    for $testo in doc("letter/LL1_1.xml")//tei:text//tei:body
-                    return $testo//tei:ab[@n='ab_01']//text()
-                }
-                </p>
-
-           
-
-                 <p>
-                {
-                    for $testo in doc("letter/LL1_1.xml")//tei:text//tei:body
-                    return $testo//tei:ab[@n='ab_02']//text()
-                }
-                </p>
-        
-                </div>
-
-            </div>
-
-            <div id="pagina2" class="pagina">
-
-
-                <div id="image2" class="text-left">
+            <div id="pagina1" class="pagina">
+                <b>Immagini delle facciate della lettera:</b>
+                <div>
+                    <img src="images/LL1-1_0001.jpg" width="300px" />
                     <img src="images/LL1-1_0002.jpg" width="300px" />
-                </div>
-                <br/>
-
-                <div id="text2" class="text-right" >
-
-                <b>Pagina 2</b>
-                <br/>
-
-                <p>
-                {
-                    for $testo in doc("letter/LL1_1.xml")//tei:text//tei:body
-                    return $testo//tei:ab[@n='ab_03']//text()
-                }
-                </p>
-                </div>
-            </div>
-
-            <div id="pagina3" class="pagina">
-
-                
-
-                <div id="image3" class="text-left">
-                    <img src="images/LL1-1_0003.jpg" width="300px" />
-                </div>
-
-                <br/>
-
-                <div id="text3" class="text-right" >
-
-                <b>Pagina 3 </b>
-                <br/>
-
-                <p>
-                {
-                    for $testo in doc("letter/LL1_1.xml")//tei:text//tei:body
-                    return $testo//tei:ab[@n='ab_04']//text()
-                }
-                </p>
-
-                </div>
-            </div>
-
-            <div id="pagina4" class="pagina">
-
-                
-                <div id="image4" class="text-left">
+                     <img src="images/LL1-1_0003.jpg" width="300px" />
                     <img src="images/LL1-1_0004.jpg" width="300px" />
                 </div>
-
-                <div id="text3" class="text-right" >
-
-                    <b>Pagina 4</b>
-                    <br/>
-                </div>
-            </div>
-
-            <div id="infosupporto" class="pagina">
-
-                
-                
-
-                <div id="info" class="text-info" >
+                <div id="text1" class="text-left" >
+                    <b>Testo della lettera:</b>
                     <p>
+                        {
+                        for $testo in doc("letter/LL1_1.xml")//tei:text//tei:body
+                        return $testo//tei:div[@type='letter-body']//text()
+                        }
+                    </p>
+                </div>
+                <div id="info" class="text-left" >
                     <b>Informazioni sul supporto</b>
-                    <br/><br/>
-
+                    <p>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
                             return $testo//tei:support/tei:p//text() 
-                        }
-                    
-                    </p>
-                    <p>
+                        }      
+                  
                     <b>Materiale: </b>
                     <br/>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
                             return $testo//tei:material//text() 
                         }
-                    
-                    </p>
-                    <p>
+                    <br/>
                     <b>Filigrana: </b>
                     <br/>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
                             return $testo//tei:watermark//text() 
                         }
-                    
-                    </p>
-                    <p>
+                    <br/>
                     <b>Timbri: </b>
                     <br/>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
                             return $testo//tei:stamp//text() 
                         }
-                    
-                    </p>
-                    <p>
+                    <br/>
                     <b>Dimensioni: </b>
                     <br/>
                         {
@@ -206,65 +102,40 @@ declare variable $page-title := "Bellini Digital Correspondence";
                         }
                        mm
                        <br/>
-                    </p>
-
-                    <p>
+                    
                     <b>Piegature: </b>
                     <br/>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
-                            return $testo//tei:foliation//text() 
+                            return $testo//tei:collation//text() 
                         }
-                    
-                    </p>
-
-                    <p>
+                    <br/>
                     <b>Condizioni fisiche: </b>
                     <br/>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:supportDesc
                             return $testo//tei:condition//text() 
                         }
-                    
                     </p>
                 </div>
-            </div>
-
-            <div id="infomani" class="pagina">
-
-
-                <div id="info-mani" class="text-info" >
-                    <p>
+                <div id="info-mani" class="text-left-mani" >
                     <b>Altre mani</b>
-                    <br/><br/>
-                     
+                    <ul>
                         {
                            for $testo in doc("letter/LL1_1.xml")//tei:handDesc//tei:handNote
                             return 
-                            <ul>
                             <li>
                             {
                                 $testo//text() 
                             }
                             </li>
-                            </ul>
                         }
-                
-                    </p>
+                    </ul>
                 </div>
-
-            </div>
-
-            
-            
-        </div>
-
+             </div>
+         </div>
         <footer>
             <div> Progetto a cura di Santa Pellino - Università di Pisa - Informatica umanistica -  </div> 
- 
          </footer>
-
-        
-        
     </body>
 </html>

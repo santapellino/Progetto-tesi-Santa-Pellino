@@ -1,5 +1,4 @@
 
-
 header {
         text-align:center;
         background-color:green;
@@ -11,32 +10,28 @@ nav{
     float:left;
     width:27%;
     margin-top:2%;
-
 }
 
 .corpo{
     float:right;
     margin-left: 30%;
     margin-right: 6%;
-    margin-top:-25%;
-   
-  }
+    margin-top:-25%; 
+}
 
-  .lista{
-
+ .lista{
     margin-left: 30%;
     margin-right: 3%;
     margin-top:3%;
     border: solid green 2px;
-  }
+}
 
-  .bibl{
-
+.bibl{
     margin-left: 30%;
     margin-right: 3%;
     margin-top:3%;
     border: solid green 2px;
-  }
+}
 
 
 li{
@@ -47,18 +42,20 @@ li{
 .list li{
     list-style-type: circle;
     
- }
+}
 
- .list ul{
-            padding-left:25%;
-            padding-top:3%;
- }
+.list ul{
+    padding-left:25%;
+    padding-top:3%;
+}
 
- .biblio li{
+.biblio li{
     list-style-type: circle;
     
- }
- .biblio ul{
+}
+
+
+.biblio ul{
     padding-left:10%;
     padding-right:5%;
     padding-top:3%;
@@ -107,14 +104,12 @@ div#bibliografia{
 }
 
 div#bibliografia h2{
-    
     text-align:center;
     padding-bottom:4%;
 }
 
 h1{
-    text-align:center;
-    
+    text-align:center; 
 }
 
 h2{
@@ -122,59 +117,78 @@ h2{
     color: white;
     background-color:green;
     padding: 4%;
-}
+    }
 
 b{
-    text-align:center;
- 
-}
-
+    text-align:center; 
+    }
 
 
 .pagina{
     float:left;
     border: solid green 3px;
     margin-bottom: 2%;
+    text-align:center;
+    padding-top:5%;
+}
 
-  }
-  /* per far stare tutte le pagine allineate a sinistra */
+  
+.pagina img{
+    margin:6%;   
+}
 
 
 .text-left{
- 
     float:left;
-    width:35%;
-    margin:3%;
-    margin-left:5%;
-        
-    }
-    /* ovvero l'immagine che è a sinistra */
+    margin-top:6%;
+    margin-left:13%;
+    margin-right:13%; 
+    border: solid green 2px;
+    padding-top:5%;
+}
+
     
-    .text-left  img{
-        width:100%;
-    }
-    /* per farla riempire tutto il div */
+.text-left-mani{
+    float:left;
+    border: solid green 2px;
+    margin:5%;
+    margin-left:13%;
+    margin-right:13%;
+    padding-top:2%;
+    padding-bottom:5%;
+}
     
-    .text-right{
     
+.text-left p{
+     text-align:left;
+     padding:6%;
+     line-height:150%;
+}
+  
+  
+.text-left-mani p{
+    diplay:inline;
+    
+}
+
+
+.text-left-mani li{
+    text-align:left;
+     padding-top:1%;
+     padding-left:1%;
+     padding-right:4%;
+     line-height:150%;
+}
+    
+    
+.text-right{
       width:46%;
       margin-left: 45%;
       margin-top: 8%;
-
-    }
-    /* ovvero il testo della ettera che è a destra */
-    
-    .text-info{
-    
-        width:46%;
-        margin-left: 15%;
-        margin-top: 8%;
-  
-      }
+}
 
 
 footer{
-
     background-color:green;
     color: white;
     float:left;
@@ -184,6 +198,6 @@ footer{
     font-size: 120%;
     margin-top: 2%;
     margin-bottom: 1%;
+}
   
   
-  }
