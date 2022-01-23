@@ -1,22 +1,18 @@
-
-
 xquery version "3.1";
-
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
-
 declare option output:media-type "text/html";
-
-
 declare variable $page-title := "Bellini Digital Correspondence";
-
 <html>
-    <meta HTTP-EQUIV="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="description" content="Bellini Digital Correspondence"/>
-    <meta name="keywords" content="Vincenzo Bellini, Bellini Digital Correspondence, edizione digitale, lettere, corrispondenza"/>
-    <meta name="author" content="Santa Pellino"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
+    <head>
+        <title>Bellini Digital Correspondence"</title>
+        <meta HTTP-EQUIV="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Bellini Digital Correspondence"/>
+        <meta name="keywords" content="Vincenzo Bellini, Bellini Digital Correspondence, edizione digitale, lettere, corrispondenza"/>
+        <meta name="author" content="Santa Pellino"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+        <link rel="stylesheet" href="style.css"/>
+    </head>
     <body>
         <header>
              <h1>  {$page-title}</h1>   
@@ -46,10 +42,10 @@ declare variable $page-title := "Bellini Digital Correspondence";
             <div id="pagina1" class="pagina">
                 <b>Immagini delle facciate della lettera:</b>
                 <div>
-                    <img src="images/LL1-1_0001.jpg" width="300px" />
-                    <img src="images/LL1-1_0002.jpg" width="300px" />
-                     <img src="images/LL1-1_0003.jpg" width="300px" />
-                    <img src="images/LL1-1_0004.jpg" width="300px" />
+                    <img src="images/LL1-1_0001.jpg" width="300" alt="LL1-1.1"/>
+                    <img src="images/LL1-1_0002.jpg" width="300" alt="LL1-1.2" />
+                     <img src="images/LL1-1_0003.jpg" width="300" alt="LL1-1.3" />
+                    <img src="images/LL1-1_0004.jpg" width="300" alt="LL1-1.4"/>
                 </div>
                 <div id="text1" class="text-left" >
                     <b>Testo della lettera:</b>

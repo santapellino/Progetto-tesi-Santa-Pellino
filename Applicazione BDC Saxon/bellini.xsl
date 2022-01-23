@@ -3,22 +3,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" extension-element-prefixes="ixsl" version="2.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     >
-
     <xsl:template match="/">
-        
         <xsl:result-document href="#title" method="ixsl:replace-content">
            Bellini Digital Correspondence
         </xsl:result-document>
-        
-        
         <xsl:result-document href="#text" method="ixsl:replace-content">
-            
             <h2> <xsl:value-of select="//tei:idno[@type='inventory']"/> - <xsl:value-of select="//tei:titleStmt//tei:title"/>  </h2>
-            
             <xsl:for-each select="//tei:body//tei:pb">
-                
-                <xsl:choose>
-                    
+                <xsl:choose>                    
                     <xsl:when test="@n='1'">
                         <div id="pagina1" class="pagina">
                         <div id="image1" class="text-left">
@@ -28,8 +20,7 @@
                                         <xsl:value-of select="$link"/>
                                     </xsl:attribute>
                             </xsl:element>
-                        </div>
-                            
+                        </div>   
                         <div id="text1" class="text-right" >
                             <b>Pagina 1</b>
                             <br/>
@@ -39,7 +30,6 @@
                         </div>
                         </div>
                     </xsl:when>
-                        
                     <xsl:when test="@n='2'">
                         <div id="pagina2" class="pagina">
                         <div id="image2" class="text-left">
@@ -57,7 +47,6 @@
                         </div>
                         </div>
                     </xsl:when>
-                    
                     <xsl:when test="@n='3'">
                         <div id="pagina3" class="pagina">
                         <div id="image3" class="text-left">
@@ -78,7 +67,6 @@
                         </div>
                         </div>
                     </xsl:when>
-                    
                     <xsl:when test="@n='4'">
                         <div id="pagina4" class="pagina">
                         <div id="image4" class="text-left">
@@ -96,17 +84,10 @@
                         </div>
                         </div>
                     </xsl:when>
-                       
                 </xsl:choose>
-                
-            
             </xsl:for-each>
-            
-            
             <xsl:result-document href="#infosupporto" method="ixsl:replace-content">
-                
                 <h2>Informazioni sul supporto </h2>
-
                 <br/><br/>
                 <b>Materiale: </b><xsl:value-of select="//tei:material"/>
                 <br/>
@@ -121,11 +102,7 @@
                 <b>Piegature: </b><xsl:value-of select="//tei:foliation"/>
                 <br/>
                 <b>Condizioni: </b><xsl:value-of select="//tei:condition"/>
-                
             </xsl:result-document>
-            
         </xsl:result-document>
-
     </xsl:template>
-
 </xsl:transform>
