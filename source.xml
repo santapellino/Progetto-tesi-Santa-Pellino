@@ -54,7 +54,7 @@
                         </xi:include>
                         
                         <xi:include href="BelliniLetters/LL1_2T.xml" xpointer="msItem-LL1.2" xmlns:xi="http://www.w3.org/2001/XInclude">
-                            <xi:fallback><p></p></xi:fallback>
+                            <xi:fallback><p>Contenuto non trovato</p></xi:fallback>
                         </xi:include> 
                         
                         <xi:include href="BelliniLetters/LL1_3T.xml" xpointer="msItem-LL1.3" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -430,8 +430,9 @@
     <!--<text> -->
     
     <xi:include href="BelliniLetters/LL1_1T.xml" xpointer="LL1.1" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <xi:fallback><p>Contenuto non trovato</p></xi:fallback>
-    </xi:include> 
+        <xi:fallback>
+            <p>Contenuto non trovato</p></xi:fallback>
+        </xi:include> 
         
     <xi:include href="BelliniLetters/LL1_2T.xml" xpointer="LL1.2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <xi:fallback><p>Contenuto non trovato</p></xi:fallback>
