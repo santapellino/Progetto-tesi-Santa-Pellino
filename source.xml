@@ -374,17 +374,6 @@
                         
                         <!-- fine <msitem> -->  
                     </msContents>
-
-                    <physDesc>
-                        <objectDesc>
-                            <supportDesc>
-                                <support>
-                                    <material>Carta sottile.</material>
-                                </support>
-                            </supportDesc>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
                 
                 <!-- qui copiamo le liste -->
                 
