@@ -876,9 +876,12 @@
     </xsl:template>
     
     <xsl:template match="tei:choice" mode="sciogliabbr"> 
-        <xsl:variable name="spazi" select="concat(' ',tei:expan, ' ' )"/>
+        <xsl:variable name="expa">
+            <xsl:value-of select="translate(normalize-space(tei:expan),' ','')" />
+        </xsl:variable>
+        <xsl:variable name="spazi" select="concat(' ',$expa, ' ')"/>
         <xsl:value-of select="$spazi"/> 
-    </xsl:template>    
+    </xsl:template>   
 
     <xsl:template match="tei:persName" mode="hotspot"> 
         <xsl:copy>
