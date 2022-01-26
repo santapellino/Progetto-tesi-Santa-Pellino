@@ -13,9 +13,9 @@
       </titleStmt>
       <editionStmt>
         <edition>
-                    Digital Edition
-                    <date when="2021-09">September 2021</date>
-                </edition>
+          Digital Edition
+          <date when="2021-09">Gennaio 2022</date>
+        </edition>
         <respStmt>
           <resp>encoding by</resp>
           <name xml:id="AMDG">Angelo Mario Del Grosso</name>
@@ -30,7 +30,7 @@
           <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
         </availability>
         <idno type="filename">BelliniCorrespondence.xml</idno>
-        <date when="2021-09">September 2021</date>
+        <date when="2022-01">January 2022</date>
       </publicationStmt>
       <sourceDesc>
         <bibl source="TEI-ListBibl.xml#Seminara2017" resp="#GS"/>
@@ -45,7 +45,6 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <!-- qui copiamo <msitem> -->
 
             <msItem xmlns="http://www.tei-c.org/ns/1.0" xml:id="msItem-LL1.1" xml:base="BelliniLetters/LL1_1T.xml">
               <idno type="inventory">LL1.1</idno>
