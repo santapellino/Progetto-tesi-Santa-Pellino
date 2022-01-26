@@ -22,6 +22,7 @@
           <name xml:id="EC">Erica Capizzi</name>
           <name xml:id="DS">Daria Spampinato</name>
           <name xml:id="SP">Santa Pellino</name>
+          <name xml:id="PPS">Pietro Sichera</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -52,12 +53,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="1"><locus from="65" to="66">n. 1, p. 65-66.</locus></citedRange></bibl>
               <bibl>Cambi, 1943, p. 18-19. </bibl>
               <bibl>Neri, 2005, p. 18. </bibl>
-              <incipit><fw>Incipit </fw> Signor 
-                Duca Intendente
-							
-              
+              <incipit>
+                <fw>Incipit </fw>
+                Signor Duca Intendente
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -67,32 +70,15 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="111"><locus from="206" to="207">n. 111, p. 206-207.</locus></citedRange></bibl>
               <bibl>Pastura, 1958, p. 4. </bibl>
               <bibl>Neri, 2005, p. 158-159. </bibl>
-              <incipit><fw>Incipit </fw>
+              <incipit>
+                <fw>Incipit </fw>
                 Venezia
 						      20 del 1830
 					    </incipit>
-              <explicit><fw>Explicit </fw>
-					    
-						Gli 
-             abbracci  a 
-            Ferdinando e voi 
-
-						
-            
-
-						      
-						ricevete i miei 
-              e credetemi sempre
-					
-          
-						      
-						Il 
-             vostro affezionatissimo
-						      Bellini
-						      Florimo vi saluta
-					
-          
-				    </explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Gli abbracci  a Ferdinando e voi ricevete i miei e credetemi sempre Il vostro affezionatissimo Bellini Florimo vi saluta
+              </explicit>
             </msItem>
 
 
@@ -103,15 +89,11 @@
               <bibl>Pastura, 1958, p. 5. </bibl>
               <bibl>Neri, 2005, p. 163. </bibl>
               <incipit><fw>Incipit </fw>
-									Venezia
-							24
-								: Febrajo
-						</incipit>
+									Venezia 24: Febrajo
+              </incipit>
               <explicit><fw>Explicit </fw>
-							Vostro 
-								 affezionatissimo 
-							amico
-				</explicit>
+                Vostro affezionatissimo amico
+              </explicit>
             </msItem>
 
 
@@ -122,26 +104,14 @@
               <bibl>Delogu, 1931, p. 169. </bibl>
               <bibl>Cambi, 1943, p. 252-253. </bibl>
               <bibl>Neri, 2005, p. 172-173. </bibl>
-              <incipit><fw>Incipit </fw>
+              <incipit>
+                <fw>Incipit </fw>
 				        vi dissi che volea darvi un cenno sù la malattia sofferta ed ecco:
-					
-          </incipit>
-              <explicit><fw>Explicit </fw>
-							    Vostro 
-               affezionatissimo  nipote
-            
-              Vincenzo
-			
-							    
-							Subito completata l'
-            opera dei 
-            
-              Capuleti
-							
-							    
-							spedirò le solite copie ed una per 
-            Carcaci.
-					  </explicit>
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+							    Vostro affezionatissimo  nipote Vincenzo Subito completata l'opera dei Capuleti spedirò le solite copie ed una per Carcaci.
+              </explicit>
             </msItem>
 
 
@@ -152,12 +122,14 @@
               <bibl>Libertini, 1935, p. 6. </bibl>
               <bibl>Cambi, 1943, p. 251-252. </bibl>
               <bibl>Neri, 2005, p. 169-170. </bibl>
-              <incipit><fw>Incipit </fw>Incipit non presente</incipit>
-              <explicit><fw>Explicit </fw>
-						      Vostro 
-               affezionatissimo
-              Vincenzo
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Incipit non presente
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+						      Vostro affezionatissimo Vincenzo
+              </explicit>
             </msItem>
 
 
@@ -167,19 +139,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="136"><locus from="226" to="226">n. 136, p. 226.</locus></citedRange></bibl>
               <bibl>Niny Ganguzza, 1970, p. 24-26. </bibl>
               <bibl>Neri, 2005, p. 176-177. </bibl>
-              <incipit><fw>Incipit </fw> 
-									        Como
-							      24
-                : Agosto 30:
-              
+              <incipit>
+                <fw>Incipit </fw> 
+                Como 24: Agosto 30:
 					    </incipit>
-              <explicit><fw>Explicit </fw>
-						      Il tuo
-							
-               amico Vincenzo  Bellini
-							
-              
-				    </explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Il tuo amico Vincenzo  Bellini
+              </explicit>
             </msItem>
 
 
@@ -188,17 +155,14 @@
               <title>Vincenzo Bellini a Giovanni Battista Perucchini, in Milano, novembre 1830</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="140"><locus from="228" to="229">n. 140, p. 228-229.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 179. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Milano
-						      25 
-               Novembre
+              <incipit>
+                <fw>Incipit </fw>
+						      Milano 25 Novembre
 					    </incipit>
-              <explicit><fw>Explicit </fw>
-					    
-						Il 
-             vostro 
-						      Bellini
-				    </explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Il vostro Bellini
+              </explicit>
             </msItem>
 
 
@@ -209,14 +173,14 @@
               <bibl>Amore, 1894, p. 308-309. </bibl>
               <bibl>Cambi, 1943, p. 279-280. </bibl>
               <bibl>Neri, 2005, p. 191-192. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-						Mio caro 
-            Amico
+              <incipit>
+                <fw>Incipit </fw>
+                Mio caro Amico
 					    </incipit>
-              <explicit><fw>Explicit </fw>
-              Vostro
-				    </explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Vostro
+              </explicit>
             </msItem>
 
 
@@ -228,20 +192,13 @@
               <bibl>Cambi, 1943, p. 299-300. </bibl>
               <bibl>Seminara, 2001, p. 24-27. </bibl>
               <bibl>Neri, 2005, p. 207-208. </bibl>
-              <incipit><fw>Incipit </fw>Incipit non presente</incipit>
-              <explicit><fw>Explicit </fw> 
-				        Il 
-               vostro affezionatissimo Amico Vincenzo Bellini
-              
-		      P.S. 
-					         V'accludo un piccolo
-
-					
-                
-					artico sù 
-              Norma.
-					        Addio.
-			      </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Incipit non presente</incipit>
+              <explicit>
+                <fw>Explicit </fw> 
+                Il vostro affezionatissimo Amico Vincenzo Bellini P.S. V'accludo un piccolo artico sù Norma. Addio.
+              </explicit>
             </msItem>
 
 
@@ -251,17 +208,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="214"><locus from="286" to="286">n. 214, p. 286.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 238-239. </bibl>
               <bibl>Pastura, 1958, p. 6. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-						Mio caro 
-            amico
+              <incipit>
+                <fw>Incipit </fw>
+                Mio caro amico
 					    </incipit>
-              <explicit><fw>Explicit </fw> Vostro affezionatissimo Amico
-						      Bellini
-						      
-						Casa — Sabato mattina —
-					
-				    </explicit>
+              <explicit>
+                <fw>Explicit </fw> 
+                Vostro affezionatissimo Amico Bellini Casa — Sabato mattina —
+              </explicit>
             </msItem>
 
 
@@ -271,34 +225,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="220"><locus from="289" to="290">n. 220, p. 289-290.</locus></citedRange></bibl>
               <bibl>Pastura, 1959, p. 358-359. </bibl>
               <bibl>Neri, 2005, p. 243-244. </bibl>
-              <incipit><fw>Incipit </fw>
-									        Venezia
-							      13
-                :
-							         32
-                :
-						      </incipit>
-              <explicit><fw>Explicit </fw>
-					    
-						Ricordatemi a tutti o
-						
-						
-            
-						miei parenti in particolare ai miei 
-            genitori:
-						
-						      
-						voi accettate i miei 
-             abbracci  ed un bacio per la
-							
-						
-            
-						mia cara 
-            zia Sara, e 
-             credetemi  Vostro 
-             affezionatissimo
-              Nipote
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Venezia 13: 32:
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Ricordatemi a tutti o miei parenti in particolare ai miei genitori: voi accettate i miei abbracci  ed un bacio per la mia cara zia Sara, e credetemi Vostro affezionatissimo Nipote
+              </explicit>
             </msItem>
 
 
@@ -307,34 +241,14 @@
               <title>Vincenzo Bellini a destinatario sconosciuto, in Parigi, 23 agosto 1833</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="246"><locus from="308" to="308">n. 246, p. 308.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 264. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-						Mi 
-            pare impossibile! Mi 
-            spiego? Già farai
-
-						
-            
-						pel raccomandato dei qui nostri amici, ciò che hai
-
-						
-            
-						fatto 
-            
-              mio caro Titta —
-             per gl'istessi 
-            [...]: non è vero?
-					
-          </incipit>
-              <explicit><fw>Explicit </fw>
-					     
-						Addio
-						
-            
-						      mio Zerbino
-						      Il tuo 
-              Bellini  
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Mi pare impossibile! Mi spiego? Già farai pel raccomandato dei qui nostri amici, ciò che hai fatto mio caro Titta —per gl'istessi [...]: non è vero?
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Addio mio Zerbino Il tuo Bellini  
+              </explicit>
             </msItem>
 
 
@@ -345,17 +259,14 @@
               <bibl>Amore, 1894, p. 325. </bibl>
               <bibl>Cambi, 1943, p. 382. </bibl>
               <bibl>Neri, 2005, p. 272-273. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Parigi 
-            2
-              :  34
-              :
+              <incipit>
+                <fw>Incipit </fw>
+                Parigi 2:  34:
 					    </incipit>
-              <explicit><fw>Explicit </fw>
-						      
-						Gradisca le proteste della mia sincera stima
-					
-				</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Gradisca le proteste della mia sincera stima
+              </explicit>
             </msItem>
 
 
@@ -366,15 +277,14 @@
               <bibl>Amore, 1894, p. 325-326. </bibl>
               <bibl>Cambi, 1943, p. 385. </bibl>
               <bibl>Neri, 2005, p. 275-276. </bibl>
-              <incipit><fw>Incipit </fw>
-                Parigi
-              
-                14
-                  : 
-                Feb
-                rajo
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Parigi 14: Febrajo
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -384,29 +294,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="268"><locus from="331" to="332">n. 268, p. pag 331-332.</locus></citedRange></bibl>
               <bibl>Amore, 1894, p. 338-339. </bibl>
               <bibl>Neri, 2005, p. 279-280. </bibl>
-              <incipit><fw>Incipit </fw>
-
-						      
-						È vero: anche 
-            Florimo mi consiglia 
-            a scrivere l'
-              opera
-             a fare il possibile di 
-
-						
-            
-						dar l'
-            opera 
-            a 
-              S. Carlo
-             pel 
-            12
-              : Gennajo,
-             essendo la 
-            Malibran scritturata per quell'epoca.
-					
-          </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                È vero: anche Florimo mi consiglia a scrivere l'opera a fare il possibile di dar l'opera a S. Carlo pel 12: Gennajo,essendo la Malibran scritturata per quell'epoca.
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -416,27 +311,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="279"><locus from="343" to="343">n. 279, p. 343.</locus></citedRange></bibl>
               <bibl>Cambi, 1943, p. 397-398. </bibl>
               <bibl>Neri, 2005, p. 286. </bibl>
-              <incipit><fw>Incipit </fw>
-									        Parigi
-							      30
-                : aprile
-              
-					    </incipit>
-              <explicit><fw>Explicit </fw>
-						      
-						Aggradite le assicurazioni della
-						
-						
-            
-						mia stima e considerazione e 
-             credetemi
-						
-						      
-						sempre
-					
-           vostro affezionatissimo
-						      Bellini
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Parigi 30: aprile
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Aggradite le assicurazioni della mia stima e considerazione e credetemi sempre vostro affezionatissimo Bellini
+              </explicit>
             </msItem>
 
 
@@ -446,23 +328,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="304"><locus from="368" to="368">n. 304, p. 368.</locus></citedRange></bibl>
               <bibl>Pastura, 1959, p. 422. </bibl>
               <bibl>Neri, 2005, p. 301-302. </bibl>
-              <incipit><fw>Incipit </fw>
-							    Juin 26:
-							
-            
-									      Puteau – 
-                N:° 19 bis rampe
-										        de Neuilly
-						    </incipit>
-              <explicit><fw>Explicit </fw>
-						    
-							Addio
-							
-							
-            
-							    Il tuo 
-              Vincenzillo
-					  </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Juin 26: Puteau – N:° 19 bis rampe de Neuilly
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Addio Il tuo Vincenzillo
+              </explicit>
             </msItem>
 
 
@@ -472,13 +345,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="344"><locus from="422" to="422">n. 344, p. 422.</locus></citedRange></bibl>
               <bibl>Cambi, 1943, p. 467. </bibl>
               <bibl>Neri, 2005, p. 342. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-						Mia cara 
-             Signora
-              Marchesa
+              <incipit>
+                <fw>Incipit </fw>
+                Mia cara Signora Marchesa
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -487,14 +361,14 @@
               <title>Vincenzo Bellini a Gaetano Cobianchi, in Parigi, 22 gennaio 1835</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="366"><locus from="453" to="453">n. 366, p. 453.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 368. </bibl>
-              <incipit><fw>Incipit </fw>
-				        Mio caro 
-              Amico: eccoti un biglietto
-            
-			      </incipit>
-              <explicit><fw>Explicit </fw>
-              Addio
-		      </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Mio caro Amico: eccoti un biglietto
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Addio
+              </explicit>
             </msItem>
 
 
@@ -505,23 +379,14 @@
               <bibl>Libertini, 1935, p. 7-8. </bibl>
               <bibl>Cambi, 1943, p. 513. </bibl>
               <bibl>Neri, 2005, p. 370-372. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Mio caro 
-              zio
-					    </incipit>
-              <explicit><fw>Explicit </fw>
-						      Date un pranzo e beve
-            te alla mia salute, che io vi
-						
-						
-            
-						risponderò 
-            da qui 
-            – 
-            Il 
-               vostro affezionatissimo
-              Vincenzo 
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Mio caro zio
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Date un pranzo e bevete alla mia salute, che io vi risponderò da qui – Il vostro affezionatissimo Vincenzo 
+              </explicit>
             </msItem>
 
 
@@ -529,15 +394,14 @@
               <idno type="inventory">LL1.20</idno>
               <title>Vincenzo Bellini a Vincenzo Ferlito, in Parigi, 18 febbraio 1835</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="387"><locus from="467" to="467">n. 387, p. 467.</locus></citedRange></bibl>
-              <incipit><fw>Incipit </fw>
-                Parigi
-						      
-							18
-              :
-					    </incipit>
-              <explicit><fw>Explicit </fw> affezionatissimo vostro 
-							    Nipote
-					  </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Parigi 18:
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                affezionatissimo vostro Nipote
+              </explicit>
             </msItem>
 
 
@@ -547,18 +411,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="400"><locus from="478" to="478">n. 400, p. 478.</locus></citedRange></bibl>
               <bibl>Cambi, 1943, p. 532. </bibl>
               <bibl>Neri, 2005, p. 389. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-						Vi sono molto tenuto delle
-						
-            
-						nuove felici che mi diede l'esito dei 
-						
-            
-						miei
-					
-          </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Vi sono molto tenuto delle nuove felici che mi diede l'esito dei miei
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -569,16 +429,14 @@
               <bibl>Libertini, 1935, p. 6. </bibl>
               <bibl>Cambi, 1943, p. 548. </bibl>
               <bibl>Neri, 2005, p. 405. </bibl>
-              <incipit><fw>Incipit </fw>
-							      Paris 
-							      10: Maggio 
-								
-                 1835
-						      
-						Mio caro 
-            Curioni
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Paris 10: Maggio 1835 Mio caro Curioni
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -588,11 +446,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="426"><locus from="501" to="501">n. 426, p. 501.</locus></citedRange></bibl>
               <bibl>Cambi, 1943, p. 549. </bibl>
               <bibl>Neri, 2005, p. 404. </bibl>
-              <incipit><fw>Incipit </fw> 
-								        Parigi
-						      10: Maggio
-					</incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw> 
+                Parigi 10: Maggio
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -603,10 +464,14 @@
               <bibl>Amore, 1894, p. 358. </bibl>
               <bibl>Cambi, 1943, p. 548. </bibl>
               <bibl>Neri, 2005, p. 405. </bibl>
-              <incipit><fw>Incipit </fw>
-							      Signore
-					</incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Signore
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -617,10 +482,14 @@
               <bibl>Amore, 1894, p. 384. </bibl>
               <bibl>Cambi, 1943, p. 547. </bibl>
               <bibl>Neri, 2005, p. 404. </bibl>
-              <incipit><fw>Incipit </fw>
-							      Signore
+              <incipit>
+                <fw>Incipit </fw>
+                Signore
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -629,16 +498,13 @@
               <title>Vincenzo Bellini a destinatario sconosciuto, in Parigi, [maggio 1835]</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="430"><locus from="502" to="502">n. 430, p. 502.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 421. </bibl>
-              <incipit><fw>Incipit </fw>Incipit non presente</incipit>
-              <explicit><fw>Explicit </fw> 
-            
-						Milles amitiés de
-						
-            
-							      
-								votre
-							
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Incipit non presente</incipit>
+              <explicit>
+                <fw>Explicit </fw> 
+                Milles amitiés de votre
+              </explicit>
             </msItem>
 
 
@@ -649,26 +515,14 @@
               <bibl>Amore, 1894, p. 359. </bibl>
               <bibl>Cambi, 1943, p. 550-551. </bibl>
               <bibl>Neri, 2005, p. 405-406. </bibl>
-              <incipit><fw>Incipit </fw>
-						Mio caro 
-            amico —
-					
-          </incipit>
-              <explicit><fw>Explicit </fw>
-						      
-						Addio, 
-            mio caro — Ricevete i miei 
-						
-             abbracci 
-
-
-						fatene a 
-            Pepé -
-					
-           Vostro Affezionatissimo
-						      Bellini
-
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Mio caro amico —
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Addio, mio caro — Ricevete i miei abbracci fatene a Pepé -Vostro Affezionatissimo Bellini
+              </explicit>
             </msItem>
 
 
@@ -676,37 +530,17 @@
               <idno type="inventory">LL1.26</idno>
               <title>Vincenzo Bellini a Vincenzo Ferlito, in Parigi, 18 maggio 1835</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="433"><locus from="505" to="506">n. 433, p. 505-506.</locus></citedRange></bibl>
-              <bibl>
-											        Amore
-										, 1894, p. 362-364. </bibl>
-              <bibl>
-											        Cambi
-										, 1943, p. 553-555. </bibl>
-              <bibl>
-											        Neri
-										, 2005, p. 409-410. </bibl>
-              <incipit><fw>Incipit </fw>
-							      18
-                 : Maggio
-               - 
-							
-              
-									rampe de pont de 
-                  Neuilly numero 19
-                  : bis
-								
-                
-									pres de 
-									
-                  Paris à 
-									
-                  Puteaux
-						      </incipit>
-              <explicit><fw>Explicit </fw>
-							    Il 
-               vostro affezionatissimo Nipote
-              Vincenzo.
-					  </explicit>
+              <bibl>Amore, 1894, p. 362-364. </bibl>
+              <bibl>Cambi, 1943, p. 553-555. </bibl>
+              <bibl>Neri, 2005, p. 409-410. </bibl>
+              <incipit>
+                <fw>Incipit </fw>
+                18: Maggio - rampe de pont de Neuilly numero 19: bis pres de Paris à Puteaux
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Il vostro affezionatissimo Nipote Vincenzo.
+              </explicit>
             </msItem>
 
 
@@ -717,16 +551,14 @@
               <bibl>Amore, 1894, p. 364. </bibl>
               <bibl>Cambi, 1943, p. 556. </bibl>
               <bibl>Neri, 2005, p. 410-411. </bibl>
-              <incipit><fw>Incipit </fw>
-								        : 19
-                : bis rampe du pont de 
-                Neuilly à 
-                Puteaux
-						      23
-              : Maggio
-            
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                : 19: bis rampe du pont de Neuilly à Puteaux 23: Maggio
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -737,24 +569,14 @@
               <bibl>Amore, 1894, p. 366-367. </bibl>
               <bibl>Cambi, 1943, p. 559. </bibl>
               <bibl>Neri, 2005, p. 413. </bibl>
-              <incipit><fw>Incipit </fw>
-						      30
-              : Maggio
-             – (
-						
-            
-								        rampe de pont					
-							
-								de 
-                Neuilly
-                    19 bis
-                  
-								        pres de 
-                  Paris à 
-								
-                  Puteaux
+              <incipit>
+                <fw>Incipit </fw>
+                30: Maggio – (rampe de pont de Neuilly 19 bis pres de Paris à Puteaux
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -765,18 +587,14 @@
               <bibl>Amore, 1894, p. 365-366. </bibl>
               <bibl>Cambi, 1943, p. 558. </bibl>
               <bibl>Neri, 2005, p. 413. </bibl>
-              <incipit><fw>Incipit </fw>
-						      
-								Rampe de pont
-                 de Neuilly
-								        N:19 bis
-							      
-								près de 
-                Paris à 
-								
-                Puteaux
+              <incipit>
+                <fw>Incipit </fw>
+                Rampe de pont de Neuilly N:19 bis près de Paris à Puteaux
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -787,23 +605,13 @@
               <bibl>Amore, 1894, p. 367. </bibl>
               <bibl>Cambi, 1943, p. 559. </bibl>
               <bibl>Neri, 2005, p. 413. </bibl>
-              <incipit><fw>Incipit </fw>
-						      1
-              : Giugno – 35 
-            
-								        N. 19
-                  : bis rampe 
-                
-									        de Neuilly à 
-									
-                  Puteaux
-								        près de 
-									
-                  Paris.
-								
-                
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                1: Giugno – 35 N. 19: bis rampe de Neuilly à Puteaux près de Paris.
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente</explicit>
             </msItem>
 
 
@@ -814,8 +622,14 @@
               <bibl>Policastro, 1943, p. 83. </bibl>
               <bibl>Cambi, 1943, p. 466. </bibl>
               <bibl>Neri, 2005, p. 342. </bibl>
-              <incipit><fw>Incipit </fw>Incipit non presente</incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Incipit non presente
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -824,8 +638,14 @@
               <title>Vincenzo Bellini a Eugène Troupenas, in Parigi, [giugno 1835]</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="457/1"><locus from="526" to="526">n. 457/1, p. 526.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 422. </bibl>
-              <incipit><fw>Incipit </fw>Incipit non presente</incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Incipit non presente
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -834,12 +654,14 @@
               <title>Vincenzo Bellini a Eleonora Statella, in Parigi, giugno 1835</title>
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana=""><locus from="527" to="527">n. , p. 527.</locus></citedRange></bibl>
               <bibl>Neri, 2005, p. 422. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Pregiatissima 
-             Signora  Duchessa
-            
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Pregiatissima Signora  Duchessa
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -850,13 +672,14 @@
               <bibl>Amore, 1894, p. 383. </bibl>
               <bibl>Cambi, 1943, p. 568. </bibl>
               <bibl>Neri, 2005, p. 425. </bibl>
-              <incipit><fw>Incipit </fw>
-                Parigi
-						      21
-              : Giugno
-            
-					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Parigi 21: Giugno
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -867,11 +690,14 @@
               <bibl>Amore, 1894, p. 369. </bibl>
               <bibl>Cambi, 1943, p. 568-569. </bibl>
               <bibl>Neri, 2005, p. 433. </bibl>
-              <incipit><fw>Incipit </fw>
-							    Mia cara 
-              Contessa
-						    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <incipit>
+                <fw>Incipit </fw>
+							    Mia cara Contessa
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
 
 
@@ -881,31 +707,14 @@
               <bibl><fw>Bibliografia </fw>Seminara, 2017, <citedRange source="#Seminara2017" resp="#GS" ana="501"><locus from="580" to="580">n. 501, p. 580.</locus></citedRange></bibl>
               <bibl>Amore, 1892, p. 351. </bibl>
               <bibl>Neri, 2005, p. 438-439. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Eccellenza
-					</incipit>
-              <explicit><fw>Explicit </fw>
-						      
-						Riceva 
-            Eccellenza le proteste della mia alta 
-            considerazio
-
-						
-              
-						ne
-             
-            ed abbe mi ricordi all'amabile 
-             Signora
-            Marchesa, e la
-						
-						
-            
-            gentile 
-            sua fi
-              
-              glia
-            
-				    </explicit>
+              <incipit>
+                <fw>Incipit </fw>
+                Eccellenza
+              </incipit>
+              <explicit>
+                <fw>Explicit </fw>
+                Riceva Eccellenza le proteste della mia alta considerazione ed abbe mi ricordi all'amabile Signora Marchesa, e la gentile sua figlia
+              </explicit>
             </msItem>
 
 
@@ -916,19 +725,19 @@
               <bibl>Amore, 1894, p. 354-355. </bibl>
               <bibl>Cambi, 1943, p. 592-593. </bibl>
               <bibl>Neri, 2005, p. 444-445. </bibl>
-              <incipit><fw>Incipit </fw>
-						      Puteaux
-						      3,
-              : Settembre 
+              <incipit>
+                <fw>Incipit </fw>
+                Puteaux 3: Settembre 
                1835
 					    </incipit>
-              <explicit><fw>Explicit </fw>Esplicit non presente</explicit>
+              <explicit>
+                <fw>Explicit </fw>
+                Esplicit non presente
+              </explicit>
             </msItem>
-
-            <!-- fine <msitem> -->
           </msContents>
         </msDesc>
-        <!-- qui copiamo le liste -->
+
         <!--  <listPerson> -->
 
         <listPerson xmlns="http://www.tei-c.org/ns/1.0" xml:id="listperson" xml:base="BelliniLetters/lists/TEI-ListPerson.xml">
@@ -3927,10 +3736,7 @@
       <textClass>
         <keywords scheme="http://thes.bncf.firenze.sbn.it">
           <!-- soggettario della Biblioteca Nazionale di Firenze -->
-          <term>
-                        lettere e minute
-                        <!-- un termine tra:  lettera, biglietto, minuta, copia -->
-                    </term>
+          <term>lettere e minute</term>
         </keywords>
       </textClass>
       <langUsage xml:id="ita">
@@ -3938,6 +3744,7 @@
       </langUsage>
     </profileDesc>
   </teiHeader>
+  
   <!--<facsimile>-->
 
   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="LL1.1_facsimile" xml:base="BelliniLetters/LL1_1T.xml">
@@ -5600,6 +5407,7 @@
   </facsimile>
 
   <!-- fine di <facsimile>-->
+  
   <!--<text> -->
 
   <text xmlns="http://www.tei-c.org/ns/1.0" type="lettera" n="1.1" xml:id="LL1.1" xml:base="BelliniLetters/LL1_1T.xml">
@@ -6787,8 +6595,8 @@
 							<lb break="no" facs="#LL1.3_line_1r_06" n="6" rend="double stroke" xml:id="LL1.3_lb_1r_06"/>
 							re:
 						</w>
-                  <ptr target="#LL1_3_note1"/>
-                  <note resp="#SA #ER" xml:id="LL1_3_note1" anchored="true"><p part="N">
+                  <ptr target="#LL1_3_note4"/>
+                  <note resp="#SA #ER" xml:id="LL1_3_note4" anchored="true"><p part="N">
 							Bellini si riferiva a un "Dottore" non meglio specificato, di cui non abbiamo nessuna informazione. 
 						</p></note> così vi voglio.
 						
@@ -7332,9 +7140,7 @@
       </div>
       <div n="c_01" type="closer" part="N" org="uniform" sample="complete">
         <salute n="ab_03">
-          <!-- sistemare numerazione -->
           <s n="s_13" type="sentence" part="N">
-            <!-- sistemare numerazione -->
             <lb facs="#LL1.4_line_1r_27" n="27" xml:id="LL1.4_lb_1r_27"/>
             <hi rend="align(right)">Vostro 
               <choice><abbr>affssmo</abbr><expan resp="#GS" instant="false">affezionatissimo</expan></choice> nipote
@@ -7557,7 +7363,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.5.1" xml:id="LL1.5_fol_1r" facs="data/test-img/LL1.5/LL1-5_0001.dzi"/>
-      <!-- Fronte -->
       <div n="t_01" type="letter-body" part="N" org="uniform" sample="complete">
         <ab n="ab_02" type="parag" part="N">
           <s n="s_02" type="sentence" part="N"><lb facs="#LL1.5_line_1r_01" n="1" xml:id="LL1.5_lb_1r_01"/><gap reason="lost" instant="false"/><ptr target="#LL1_5_note1"/><note resp="#GS" xml:id="LL1_5_note1" anchored="true"><p part="N">
@@ -10813,7 +10618,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.12.1" xml:id="LL1.12_fol_1r" facs="data/test-img/LL1.12/LL1-12_0001.dzi"/>
-      <!--FRONTE RECTO-->
       <div n="t_01" type="letter-body" part="N" org="uniform" sample="complete">
         <ab n="ab_01" type="parag" part="N">
           <s n="s_01" type="sentence" part="N"><lb facs="#LL1.12_line_1r_01" n="1" xml:id="LL1.12_lb_1r_01"/>
@@ -11018,7 +10822,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.13.I.1" xml:id="LL1.13.I_fol_1r" facs="data/test-img/LL1.13.I/LL1-13-I_0001.dzi"/>
-      <!-- recto -->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01">
           <s n="s_01" rend="align(right)" type="sentence" part="N">
@@ -11037,7 +10840,6 @@
             <hi rend="align(center)">
 							Mia 
               <choice><abbr>Pregsma</abbr><expan instant="false">Pregiatissima</expan></choice>
-                     <!--Preg<add>iati</add>s<add>si</add>ma-->
                      <choice><abbr>Sig
                   <am instant="false">:</am>
                            <hi rend="sup">ra</hi>
@@ -11244,7 +11046,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.13.II.1" xml:id="LL1.13.II_fol_1r" facs="data/test-img/LL1.13.II/LL1-13-II_0001.dzi"/>
-      <!-- Fronte -->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01">
           <s n="s_01" type="sentence" part="N">
@@ -11773,7 +11574,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.14.1" xml:id="LL1.14_fol_1r" facs="data/test-img/LL1.14/LL1-14_0001.dzi"/>
-      <!--FRONTE-->
       <div type="letter-body" part="N" org="uniform" sample="complete">
         <ab n="ab_01" rend="overwritten" type="parag" part="N">
           <s n="s_01" type="sentence" part="N"><lb facs="#LL1.14_line_1r_01" n="01" xml:id="LL1.14_lb_1r_01"/>
@@ -12145,13 +11945,11 @@
       </div>
       <div type="paratext" part="N" org="uniform" sample="complete">
         <ab facs="#LL1.14_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.14_hs_1v_01" part="N">
-          <!-- seconda mano del bibliotecario -->
           <fw type="catalogNum">
             <idno type="oldCat">(18)</idno>
           </fw>
         </ab>
         <ab facs="#LL1.14_hotspot_1v_02" hand="#h2" subtype="addition" type="paratext" xml:id="LL1.14_hs_1v_02" part="N">
-          <!-- terza mano  -->
           <fw>
             <unclear instant="false">onzième Cotefil</unclear>
             <gap reason="illegible" instant="false"/>
@@ -12193,7 +11991,6 @@
 
 
   <text xmlns="http://www.tei-c.org/ns/1.0" type="minuta_di_lettera" n="1.15" xml:id="LL1.15" xml:base="BelliniLetters/LL1_15T.xml">
-    <!-- non sono presenti sigilli o indirizzi del destinatario/mittente o eventuali altre particolarità -->
     <front>
       <div type="Title">
         <fw> 
@@ -12309,9 +12106,7 @@
       </div>
     </front>
     <body xml:lang="it">
-      <!-- fronte del folio -->
       <pb n="LL1.15.1" xml:id="LL1.15_fol_1r" facs="data/test-img/LL1.15/LL1-15_0001.dzi"/>
-      <!-- apertura, formula introduttiva -->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01">
           <s n="s_01" type="sentence" part="N">
@@ -12606,7 +12401,6 @@
           </s>
         </ab>
       </div>
-      <!-- formula di chiusura-->
       <div n="c_01" type="closer" part="N" org="uniform" sample="complete">
         <salute n="ab_06">
           <s n="s_13" type="sentence" part="N"><lb facs="#LL1.15_line_1v_13" n="13" xml:id="LL1.15_lb_1v_13"/>
@@ -12792,7 +12586,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.16.1" xml:id="LL1.16_fol_1r" facs="data/test-img/LL1.16/LL1-16_0001.dzi"/>
-      <!-- Fronte-recto -->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01">
           <s n="s_01" type="sentence" part="N"><lb facs="#LL1.16_line_1r_01" n="1" xml:id="LL1.16_lb_1r_01"/><date when="1834-06-26" instant="false">Juin 26</date>:
@@ -13384,7 +13177,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.18.1" xml:id="LL1.18_fol_1r" facs="data/test-img/LL1.18/LL1-18_0001.dzi"/>
-      <!-- fronte -->
       <div type="letter-body" part="N" org="uniform" sample="complete">
         <salute n="ab_01">
           <s n="s_01" type="sentence" part="N">
@@ -13457,7 +13249,6 @@
           </s>
         </ab>
       </div>
-      <!--chiusura della lettera -->
       <div n="c_01" type="closer" part="N" org="uniform" sample="complete">
         <salute n="ab_04">
           <s n="s_04" type="sentence" part="N">
@@ -13474,7 +13265,6 @@
           </fw>
         </ab>
       </div>
-      <!--contenuto del verso-->
       <pb n="LL1.18.2" xml:id="LL1.18_fol_1v" facs="data/test-img/LL1.18/LL1-18_0002.dzi"/>
       <div type="sent" part="N" org="uniform" sample="complete">
         <lb facs="#LL1.18_folio_1v" xml:id="LL1.18_fol_1v_body"/>
@@ -13845,7 +13635,6 @@
           <gap agent="hole" quantity="2" reason="illegible" unit="char" instant="false"/>
                <supplied cert="medium" reason="lost" resp="#CC" instant="false">de</supplied>
                <unclear cert="high" extent="1" reason="hole" resp="#MR" unit="char" instant="false">l</unclear>
-               <!--<unclear reason="illegible" extent="4" unit="char" resp="#MR" cert="low">Gran</unclear>-->
                <choice><abbr>Cav</abbr><expan resp="#CC" instant="false">Cav
               <ex instant="false">aliere</ex>
                   </expan></choice> Maestro 
@@ -13985,7 +13774,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.20.1" xml:id="LL1.20_fol_1r" facs="data/test-img/LL1.20/LL1-20_0001.dzi"/>
-      <!-- fronte -->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01" rend="indented_align(center)" xml:id="indented">
           <s n="s_01" type="sentence" part="N">
@@ -14137,7 +13925,6 @@
                </s>
         </ab>
       </div>
-      <!--<closer n="c_01">-->
       <div n="c_01" type="closer" part="N" org="uniform" sample="complete">
         <salute n="ab_05">
           <s n="s_10" rend="align(right)" type="sentence" xml:id="right" part="N">
@@ -14325,7 +14112,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.21.1" xml:id="LL1.21_fol_1r" facs="data/test-img/LL1.21/LL1-21_0001.dzi"/>
-      <!-- fronte-recto -->
       <div type="letter-body" part="N" org="uniform" sample="complete">
         <salute n="ab_01">
           <lb facs="#LL1.21_line_1r_01" n="1" xml:id="LL1.21_lb_1r_01"/>
@@ -15366,17 +15152,11 @@
       </div>
     </front>
     <body xml:lang="it">
-      <!--Il corpo del testo-->
       <pb n="LL1.24.I.1" xml:id="LL1.24.I_fol_1r" facs="data/test-img/LL1.24.I/LL1-24-I_0001.dzi"/>
-      <!--recto-->
       <div type="letter-body" part="N" org="uniform" sample="complete">
-        <!--Contiene il corpo della lettera-->
         <salute n="ab_01">
-          <!--Contiene i saluti iniziali della lettera-->
           <s n="s_01" type="sentence" part="N">
-            <!--Suddivide in frasi-->
             <lb facs="#LL1.24.I_line_1r_01" n="1" xml:id="LL1.24.I_lb_1r_01"/>
-            <!--Da il riferimeto tra immagine e testo-->
             <ptr target="#LL1.24.I_note1"/>
             <note ana="855" resp="#GS" source="TEI-ListBibl.xml#Seminara2017" xml:id="LL1.24.I_note1" anchored="true">
               <bibl default="false" status="draft">
@@ -15396,20 +15176,16 @@
 						</p>
             </note>
             <hi rend="align(left)">
-              <!--Seleziona una parola distintiva all'interno del testo, in questo caso allineata a sinistra-->
               <persName type="person">Signore</persName>
-              <!--Rifermento della persona a una parola del testo-->
             </hi>
           </s>
         </salute>
         <space quantity="2" unit="lines"/>
         <ab n="ab_02" type="parag" part="N">
-          <!--Contenitore di testo di tipologia paragrafo-->
           <s n="s_02" type="sentence" part="N">
             <lb facs="#LL1.24.I_line_1r_02" n="2" xml:id="LL1.24.I_lb_1r_02"/>
             <hi rend="align(left)">
               <del rend="dotted" instant="false" status="unremarkable">Affari</del>
-              <!--Parola cancellata all'interno del testo, tratteggiata-->
             </hi>
           </s>
           <s n="s_03" rend="first_line_indented" type="sentence" part="N"><lb facs="#LL1.24.I_line_1r_03" n="3" xml:id="LL1.24.I_lb_1r_03"/>
@@ -15720,12 +15496,9 @@
       </div>
     </front>
     <body xml:lang="fr">
-      <!--Body in lingua francese-->
       <pb n="LL1.24.II.1" xml:id="LL1.24.II_fol_1r" facs="data/test-img/LL1.24.II/LL1-24-II_0001.dzi"/>
-      <!-- recto-->
       <div type="letter-body" part="N" org="uniform" sample="complete">
         <ab n="ab_03" type="parag" part="N">
-          <!--Paragragfo-->
           <ptr target="#LL1.24.II_note1"/>
           <note ana="858" resp="#GS" source="TEI-ListBibl.xml#Seminara2017" xml:id="LL1.24.II_note1" anchored="true">
             <bibl default="false" status="draft">
@@ -16298,8 +16071,6 @@
           <s n="s_17" type="sentence" part="N"><lb facs="#LL1.25_line_1r_33" n="33" xml:id="LL1.25_lb_1r_33"/>
 						Addio, 
             <persName ref="#FS">mio caro</persName> — Ricevete i miei 
-						
-            <!--<expan><abbr>abb</abbr><ex resp="#FA #AZ">rac</ex><abbr>:ci</abbr></expan> -->
 						      <choice><abbr>abb
                 <am instant="false">:</am>
                      </abbr><ex resp="#GS #SP" instant="false">rac</ex><abbr><g rend="superscript">ci</g></abbr><expan instant="false">abbracci</expan></choice>
@@ -16311,14 +16082,12 @@
           </s>
           <s n="s_18" type="sentence" part="N">
             <lb facs="#LL1.25_line_1r_34" n="34" xml:id="LL1.25_lb_1r_34"/>
-            <!--<expan><abbr>V</abbr><ex resp="#FA #AZ">ost</ex><abbr>ro</abbr>-->
             <choice>
               <abbr>V</abbr>
               <ex resp="#FA #AZ #SP" instant="false">ost</ex>
               <abbr>ro</abbr>
               <expan instant="false">Vostro</expan>
             </choice>
-            <!--</expan><expan><abbr>Aff</abbr><ex resp="#FA #AZ">ezionatis</ex><abbr>smo</abbr></expan> -->
             <choice>
               <abbr>Aff</abbr>
               <ex resp="#FA #AZ #SP" instant="false">ezionatis</ex>
@@ -18325,7 +18094,6 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.30.1" xml:id="LL1.30_fol_1r" facs="data/test-img/LL1.30/LL1-30_0001.dzi"/>
-      <!--fronte-recto-->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
         <dateline n="ab_01">
           <s n="s_01" type="sentence" part="N">
@@ -19409,16 +19177,17 @@
         <pb n="LL1.32.II.2" xml:id="LL1.32.II_fol_1v" facs="data/test-img/LL1.32.II/LL1-32-II_0002.dzi"/>
         <div type="extratext">
           <p>
-                                    La facciata non presenta testo autografo di Bellini relativo a questa lettera
-                                </p>
+            La facciata non presenta testo autografo di Bellini relativo a questa lettera
+          </p>
+          <ab facs="#LL1.32.II_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.32.II_hs_1v_01" part="N">
+            <fw>
+              <gap reason="illegible" instant="false"/>
+              <unclear instant="false">Cotefil</unclear>
+              <gap reason="illegible" instant="false"/>
+            </fw>
+          </ab>
         </div>
-        <ab facs="#LL1.32.II_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.32.II_hs_1v_01" part="N">
-          <fw>
-            <gap reason="illegible" instant="false"/>
-            <unclear instant="false">Cotefil</unclear>
-            <gap reason="illegible" instant="false"/>
-          </fw>
-        </ab>
+        
       </div>
     </body>
     <back>
@@ -19670,21 +19439,21 @@
         <pb n="LL1.33.4" xml:id="LL1.33_fol_2v" facs="data/test-img/LL1.33/LL1-33_0004.dzi"/>
         <div type="extratext">
           <p>
-                                    La facciata non presenta testo autografo di Bellini relativo a questa lettera
-                                </p>
-        </div>
-        <ab facs="#LL1.33_hotspot_2v_01" hand="#h2" subtype="addition" type="paratext" xml:id="LL1.33_hs_2v_01" part="N">
-          <fw type="catalogNum">
-            <idno rend="color(blue)" type="oldCat">N 26</idno>
-          </fw>
-        </ab>
-        <ab facs="#LL1.33_hotspot_2v_02" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.33_hs_2v_02" part="N">
-          <unclear instant="false">
+            La facciata non presenta testo autografo di Bellini relativo a questa lettera
+          </p>
+          <ab facs="#LL1.33_hotspot_2v_01" hand="#h2" subtype="addition" type="paratext" xml:id="LL1.33_hs_2v_01" part="N">
             <fw type="catalogNum">
-              <idno rend="color(blue)" type="oldCat">(6)</idno>
+              <idno rend="color(blue)" type="oldCat">N 26</idno>
             </fw>
-          </unclear>
-        </ab>
+          </ab>
+          <ab facs="#LL1.33_hotspot_2v_02" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.33_hs_2v_02" part="N">
+            <unclear instant="false">
+              <fw type="catalogNum">
+                <idno rend="color(blue)" type="oldCat">(6)</idno>
+              </fw>
+            </unclear>
+          </ab>
+        </div>
       </div>
     </body>
     <back>
@@ -19902,7 +19671,7 @@
 						
             <lb facs="#LL1.34.I_line_1r_07" n="7" xml:id="LL1.34.I_lb_1r_07"/>
 						dovrebbe essere più rispettato e 
-            <subst resp="#GS" instant="false" status="unremarkable"><del instant="false" status="unremarkable"><!--<unclear reason="illegible" resp="#SE #SM" cert="low">ripiego</unclear>--><gap quantity="1" reason="deleted" unit="word" instant="false"/></del><add place="above" instant="false" status="unremarkable">sostenuto</add></subst> dalle
+            <subst resp="#GS" instant="false" status="unremarkable"><del instant="false" status="unremarkable"><gap quantity="1" reason="deleted" unit="word" instant="false"/></del><add place="above" instant="false" status="unremarkable">sostenuto</add></subst> dalle
 						
 						
             <lb facs="#LL1.34.I_line_1r_08" n="8" xml:id="LL1.34.I_lb_1r_08"/>
@@ -20098,20 +19867,20 @@
         <pb n="LL1.34.I.2" xml:id="LL1.34.I_fol_1v" facs="data/test-img/LL1.34.I/LL1-34-I_0002.dzi"/>
         <div type="extratext">
           <p>
-                                    La facciata non presenta testo autografo di Bellini relativo a questa lettera
-                                </p>
+            La facciata non presenta testo autografo di Bellini relativo a questa lettera
+          </p>
+          <ab facs="#LL1.34.I_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.34.I_hs_1v_01" part="N">
+            <fw>
+              <unclear instant="false">vingtseptième Cotefil</unclear>
+              <gap reason="illegible" instant="false"/>
+            </fw>
+          </ab>
+          <ab facs="#LL1.34.I_hotspot_1v_02" hand="#h4" subtype="addition" type="paratext" xml:id="LL1.34.I_hs_1v_02" part="N">
+            <fw type="catalogNum">
+              <idno rend="color(blue)" type="oldCat">(35)</idno>
+            </fw>
+          </ab>
         </div>
-        <ab facs="#LL1.34.I_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.34.I_hs_1v_01" part="N">
-          <fw>
-            <unclear instant="false">vingtseptième Cotefil</unclear>
-            <gap reason="illegible" instant="false"/>
-          </fw>
-        </ab>
-        <ab facs="#LL1.34.I_hotspot_1v_02" hand="#h4" subtype="addition" type="paratext" xml:id="LL1.34.I_hs_1v_02" part="N">
-          <fw type="catalogNum">
-            <idno rend="color(blue)" type="oldCat">(35)</idno>
-          </fw>
-        </ab>
       </div>
     </body>
     <back>
@@ -20294,14 +20063,10 @@
     </front>
     <body xml:lang="it">
       <pb n="LL1.35.1" xml:id="LL1.35_fol_1r" facs="data/test-img/LL1.35/LL1-35_0001.dzi"/>
-      <!--n= numero progressivo parte del body(fronte)-->
       <div n="o_01" type="opener" part="N" org="uniform" sample="complete">
-        <!--dateline contains a brief description of the place, date, time, etc. of production of a letter-->
         <dateline n="ab_01" rend="align(center)">
           <s n="s_01" type="sentence" part="N">
-            <!--line beginning-->
             <lb facs="#LL1.35_line_1r_01" n="1" xml:id="LL1.35_lb_1r_01"/>
-            <!--prima riga-->
             <placeName ref="#Put">Puteaux</placeName>
             <date when="1835-09-03" instant="false">3,
               <am instant="false">:</am> Settembre 
@@ -20327,7 +20092,6 @@
 
 						
             <lb facs="#LL1.35_line_1r_03" n="3" xml:id="LL1.35_lb_1r_03"/>
-                  <!--3° riga-->
 						da 
             <persName ref="#CS">Severini</persName> l'infame azione del 
             <choice><abbr>Sig
@@ -20340,7 +20104,6 @@
 
 						
             <lb facs="#LL1.35_line_1r_04" n="4" xml:id="LL1.35_lb_1r_04"/>
-                  <!--4° riga-->
 						che feci per lui ciò che 
             <choice><reg instant="false">neanche</reg><orig>ne anche</orig></choice> era
 
@@ -20367,7 +20130,6 @@
 
 						
                 <lb break="no" facs="#LL1.35_line_1r_08" n="8" rend="double stroke" xml:id="LL1.35_lb_1r_08"/>
-                        <!--8° riga, break=no indica che il token non termina con "mo", rend="double stroke" indica l'andare a capo-->
 						glie
               </w>
                   </persName> e 
@@ -20411,7 +20173,6 @@
                   <!--11° riga-->
 						copia intera, senza che la 
             <orgName>Società</orgName> avesse 
-            <!--nessuna info disponibile sulla Società-->
 						
 						      <lb facs="#LL1.35_line_1r_12" n="12" xml:id="LL1.35_lb_1r_12"/>
                   <!--12° riga-->
@@ -20507,31 +20268,31 @@
         <pb n="LL1.35.2" xml:id="LL1.35_fol_1v" facs="data/test-img/LL1.35/LL1-35_0002.dzi"/>
         <div type="extratext">
           <p>
-                                    La facciata non presenta testo autografo di Bellini relativo a questa lettera
-                                </p>
+            La facciata non presenta testo autografo di Bellini relativo a questa lettera
+          </p>
+          <ab facs="#LL1.35_hotspot_1v_04" hand="#h2" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_04" part="N">
+            <!--prima riga-->
+            <unclear instant="false">Jait bont</unclear>
+          </ab>
+          <ab facs="#LL1.35_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_01" part="N">
+            <!-- seconda mano del bibliotecario -->
+            <fw type="catalogNum">
+              <idno rend="underline" type="oldCat">3</idno>
+            </fw>
+          </ab>
+          <ab facs="#LL1.35_hotspot_1v_02" hand="#h4" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_02" part="N">
+            <!-- seconda mano del bibliotecario -->
+            <fw type="catalogNum">
+              <idno rend="color(blue) underline" type="oldCat">N 21</idno>
+            </fw>
+          </ab>
+          <ab facs="#LL1.35_hotspot_1v_03" hand="#h5" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_03" part="N">
+            <!-- seconda mano del bibliotecario -->
+            <fw type="catalogNum">
+              <idno rend="color(blue) circled" type="oldCat">20</idno>
+            </fw>
+          </ab>
         </div>
-        <ab facs="#LL1.35_hotspot_1v_04" hand="#h2" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_04" part="N">
-          <!--prima riga-->
-          <unclear instant="false">Jait bont</unclear>
-        </ab>
-        <ab facs="#LL1.35_hotspot_1v_01" hand="#h3" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_01" part="N">
-          <!-- seconda mano del bibliotecario -->
-          <fw type="catalogNum">
-            <idno rend="underline" type="oldCat">3</idno>
-          </fw>
-        </ab>
-        <ab facs="#LL1.35_hotspot_1v_02" hand="#h4" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_02" part="N">
-          <!-- seconda mano del bibliotecario -->
-          <fw type="catalogNum">
-            <idno rend="color(blue) underline" type="oldCat">N 21</idno>
-          </fw>
-        </ab>
-        <ab facs="#LL1.35_hotspot_1v_03" hand="#h5" subtype="addition" type="paratext" xml:id="LL1.35_hs_1v_03" part="N">
-          <!-- seconda mano del bibliotecario -->
-          <fw type="catalogNum">
-            <idno rend="color(blue) circled" type="oldCat">20</idno>
-          </fw>
-        </ab>
       </div>
     </body>
     <back>
@@ -20569,13 +20330,12 @@
             </biblStruct>
             <biblStruct xml:id="Cambi1943" type="print" source="https://gallica.bnf.fr/ark:/12148/bpt6k1162125v/f15.item" default="false" status="draft">
               <monogr>
-                <author xml:id="VB">
+                <author xml:id="VBB">
                   <forename full="yes">Belllini</forename>
                   <surname full="yes">Vincenzo</surname>
                 </author>
                 <title level="m">Epistolario</title>
                 <editor xml:id="LC">
-                  <!-- curatore, aggiungere @role? -->
                   <forename full="yes">Luisa</forename>
                   <surname full="yes">Cambi</surname>
                 </editor>
@@ -20742,7 +20502,7 @@
             </biblStruct>
             <biblStruct xml:id="Seminara2001" type="print" default="false" status="draft">
               <analytic>
-                <author xml:id="GS">
+                <author xml:id="GSB">
                   <forename full="yes">Graziella</forename>
                   <surname full="yes">Seminara</surname>
                 </author>
@@ -20804,8 +20564,6 @@
                 <biblScope unit="issue">Fascicolo XVI</biblScope>
                 <biblScope unit="page" from="272" to="274">pp. 272-4</biblScope>
               </monogr>
-              <!-- La pagina non corrisponde a quella segnalata da GS, ma non trovo nessun altro riferimento a contributi su Bellini, 
-                                    a firma di M. Zangara, nell'annata 1906 -->
             </biblStruct>
           </listBibl>
         </listBibl>
